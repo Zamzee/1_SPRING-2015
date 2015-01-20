@@ -1,0 +1,109 @@
+HTML - Hyper Text Mark-up Language
+==================================
+
+<p> - paragraph
+
+text text text <br /> // creates a newline or breakline
+text text
+text text text
+
+<\p> 
+
+
+<i>some</i> // italics
+
+<s>text</s> // strikethrough
+
+<code> // to change the font to look like  a code editor
+for (int i = 0; i < 10; i++)
+</code>
+
+<em>Hope you can see it.</em> // Emphasize
+
+<cite>Have a great day.</cite> // creating a citation
+
+<div> // allows you to edit specific parts of a paragraph without 		changing other parts it divides or breaks a span
+  Hello
+</div>
+</div>
+  Hi
+</div>
+
+
+<span> // span lets you edit a specifc part of code from a 		specified beginning and an end
+ Hello
+</span>
+
+<span>Lorem ipsum</
+
+
+
+<div><span id= "lorem" class="loud">Lorem ipsum<...
+
+<footer>
+  Thanks for coming
+</footer>
+
+
+<section>
+  <article>
+     <header></header>
+       <div><span id="lorem" class="loud">
+        <footer></footer>
+          </article>
+           </section>
+
+<nav> // a <div> that is labeled for use for a navigation bar
+</nav>
+
+
+* all of these names are either divs or spans but with specific 
+	labels to better describe the function/purpose
+	 of the code in that section
+
+
+/////////////////////////////////
+
+<a href="google.com">go to google</a>
+
+<a> </a> // is an anchor
+
+Example of an anchor
+
+<h2 id="section2">Section 2</h2>
+<a href="#Top">Top</a>
+
+
+URL Absolute or Relative
+
+/////////////////////////////////////////////////
+
+FORMS
+=====
+
+<form method="POST" action="http://requestb.in/1b7jphx1">
+<label for="name">Name: </label>
+<input type="text" id= "name" name="name"></input>
+<label> for="password">Password:</label>
+<input type="password" id="password" name="password"></input>
+</form>
+
+
+WAYS TO COMMUNICATE
+====================
+GET - to get a body of data and read it
+POST - to send a body of data (used by default)
+PUT -
+DELETE -
+HEAD -
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+www.requestb.in // to inspect HTTP Requests
+
+Safari Online 
+// Library resource to access thousands of books for computer science
+
+www.proquest.safaribooksonline.com/

@@ -1,0 +1,17 @@
+Charmander
+=========
+- Charmander
+- Fire Type
+- 39 HP
+- 52 Attack
+- 43 Defense
+- 65 Speed
+
+
+- Move 1 (Scratch) Lvl 1
+
+- Move 2 (Growl) Lvl 1
+
+- Move 3 (Ember) Lvl 9
+
+- Move 4 (Leer) Lvl 15

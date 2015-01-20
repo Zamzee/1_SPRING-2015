@@ -1,0 +1,36 @@
+====
+HTML
+====
+
+<html> ... <html>  // opening and closing tags, slash in closing tag
+
+
+username: password@ domain: port // default will use port specified by the protocal
+
+IP = Internet Protocol
+
+IPv4 address 161.28.117.185
+
+IPv6 address fe80::250:56ff:fe87:3b1d 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+WEB TECHNOLOGY
+
+=======================================================================================
+
+=================
+HTTP Status Codes
+=================
+
+200 (200-299) // Successful
+
+300 (300-399) // Redirect 
+		it is there but in a different page or place? 		communication error?
+
+400 (400-499) // Can't Access    not found ex: Error 404...
+
+500 (500-599) // Server Side Error - Bad News Bears :(
+
+=======================================================================================
+

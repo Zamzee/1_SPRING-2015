@@ -1,0 +1,16 @@
+Squirtle
+=========
+- Squirtle
+- Water type
+- 44 HP
+- 48 Attack
+- 65 Defense
+- 43 Speed
+
+- Move 1 (Tackle) Lvl 1
+
+- Move 2 (Tail Whip) Lvl 4
+
+- Move 3 (Water Gun) Lvl 7
+
+- Move 4 (Bubble) Lvl 13

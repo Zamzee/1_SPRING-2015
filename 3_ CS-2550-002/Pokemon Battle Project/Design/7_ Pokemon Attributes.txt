@@ -1,0 +1,34 @@
+=======
+ATTACK
+=======
+- used in calculating damage from physical attacks
+
+========
+DEFENSE
+========
+- used in calculating the damage from physical attacks
+
+======
+SPEED
+======
+- used to determine when the Pokemon attacks in the turn
+
+=============
+SPECIAL ATTACK
+=============
+- used in calculating damage given from Special Attacks
+
+===============
+SPECIAL DEFENSE
+===============
+- used in calculat the damage given by Special Attacks
+
+=========
+ACCURACY
+=========
+- used to assist in having attacks hit the opponent
+
+=======
+EVASION
+=======
+- used to possibly prevent an attack from hitting

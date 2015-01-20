@@ -1,0 +1,78 @@
+=================================================
+Moves
+=================================================
+Moves Categories
+- Physical (do damage) 
+	Normal, Fighting, Poison, Ground, Flying, Bug, Rock
+
+- Special (do damage) 
+	Fire, Water, Electric, Grass, Ice, Psychic, Dragon, Dark
+
+- Status (change status) 
+	Raise/Lower stats, burn/sleep/poison/paralyze/confuse
+
+=======
+STAGES
+=====================================================
+- Stage - Stats can be a Minimum of -6 , Maximum of +6 stages
+- Stage set to 0 at start of battle
+- Accuracy- multiplication of the User's attack accuracy 
+- Evasion- multiplication of the Foe's attack accuracy
+
+=====================================================
+Stage	Main Stats	Accuracy		Evasion
+-6	StatValue * 0.25	Accuracy * 0.33	OppAcc * 3
+-5	StatValue * 0.285	Accuracy * 0.375	OppAcc * 2.66
+-4	StatValue * 0.33	Accuracy * 0.428	OppAcc * 2.33
+-3	StatValue * 0.4	Accuracy * 0.5	OppAcc * 2
+-2	StatValue * 0.5	Accuracy * 0.6	OppAcc * 1.66
+-1	StatValue * 0.66	Accuracy * 0.75	OppAcc * 1.33
+0	StatValue * 1	Accuracy * 1	OppAcc * 1
+1	StatValue * 1.5	Accuracy * 1.33	OppAcc * 0.75
+2	StatValue * 2	Accuracy * 1.66	OppAcc * 0.6
+3	StatValue * 2.5	Accuracy * 2	OppAcc * 0.5
+4	StatValue * 3	Accuracy * 2.33	OppAcc * 0.428
+5	StatValue * 3.5	Accuracy * 2.66	OppAcc * 0.375
+6	StatValue * 4	Accuracy * 3	OppAcc * 0.3
+
+
+=================
+MOVE TYPE EFFECTS
+======================================================
+Against Grass
+==================
+Fire --> Grass (2x)
+Water --> Grass (0.5x)
+Grass --> Grass (0.5x)
+Electric --> Grass (0.5x)
+Flying --> Grass (2.0x)
+Normal --> Grass (1.0x)
+==================
+
+Against Fire
+==================
+Fire --> Fire (0.5x)
+Water --> Fire (2.0x)
+Grass --> Fire (0.5x)
+Electric --> Fire (1.0x)
+Flying --> Fire (1.0x)
+Normal --> Fire (1.0x)
+
+Against Water
+==================
+Fire --> Water (0.5x)
+Water --> Water (0.5x)
+Grass --> Water (2.0x)
+Electric --> Water (2.0x)
+Flying --> Water (1.0x)
+Normal --> Water (1.0x)
+==================
+Labels
+============================
+0.5x = Not very effective
+1.0x = Normal
+2.0x - Super-effective
+STAB (Same Type Attack Bonus) 1.5x
+============================
+
+

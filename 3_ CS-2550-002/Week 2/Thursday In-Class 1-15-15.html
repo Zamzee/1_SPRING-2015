@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello CSS</title>
+  <style>
+  div h1 {
+    color: blue;
+  }
+  div div h1 {
+    color: green;
+  }
+
+  h1 {
+    color: gray;
+  }
+
+  #greenparent div h1 {
+  display: none;
+  }
+  .maindiv {
+  padding-top: 100px
+  }
+  .maindiv#greenparent {
+    padding-top: 25px;
+  }
+  a{
+    color: black;
+  }
+  a[href] {
+    color: blue;
+  }
+  a[href*="google"] {
+    color: green;
+  } <!-- '*' says that anywhere that is an href on the site/-->
+
+
+  </style>
+</head>
+<body>
+  <h1>Welcome CSS</h1>
+
+  <div>
+    <h1>Other in Div</h1>
+  </div>
+
+  <div id="greenparent" class="maindiv"> <--id= should always be unique, class is not unique-->
+    <div>
+      <h1>Green</h1>
+    </div>
+  </div>
+
+  <a href="https://google.com">Google HTTP5</a>
+  <a href="http://google.com">Google HTTP</a>
+  <a href="google.com">Google only</a>
+
+</body>
+</html>

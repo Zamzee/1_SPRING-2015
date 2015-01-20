@@ -1,0 +1,53 @@
+// Weekly Example 01
+// Illustrates C# program structure 
+// Roger deBry
+// Updated January 2011
+// ---------------------------------
+
+// The using statement goes here - it says that the code will use the System namespace
+using System;
+
+// then we begin the class named Program
+class Program
+{		
+    
+        // if you are going to define any constants do it here before Main( )
+        // constants are often used to eliminate magic numbers
+        const int RADIUS_TO_DIAMETER = 2;
+
+    // Now begin the Main( ) method - this is where the program begins execution
+    static void Main( )
+    {
+
+        
+        // inside of Main are statements, each ends in a semi-colon
+        // Each line or two of code should have a corresponding comment
+        // explaining what those lines of code do. We write pseudo-code before
+        // creating the program. Use this pseudo-code for these comments
+
+        // Here we explain what the program does. The WriteLine( ) method outputs to the computer display
+	    Console.WriteLine("Roger deBry");
+	    Console.WriteLine("Demonstration Program");
+        Console.WriteLine("Given the radius of a circle, it computes the circumference");
+	
+	    // declare variables local to Main( )
+        int radius = 0;                       // radius is a whole number
+        double circumference;          // circumference can have a fractional part
+
+        // Prompt the user for some input using Write( ) - it leaves the cursor at the end of the line
+        Console.Write("Please enter the radius of the circle, in inches: ");
+
+        // Get the input with ReadLine( ) and turn it into a double        
+        radius = int.Parse(Console.ReadLine( ) );
+
+        // Compute the circumference
+        // Math.PI is a built in constant for pi
+	    circumference = radius * RADIUS_TO_DIAMETER * Math.PI;
+
+        // Display the answer
+	    Console.WriteLine("The circumference of the circle is {0:f2} inches", circumference);
+	
+	    // Keep the Console window open
+        Console.ReadLine( );
+    }
+}

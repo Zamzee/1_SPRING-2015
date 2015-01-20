@@ -1,0 +1,50 @@
+// CS1400 Example Program #2
+// Illustrates good C# style
+// Robot mover program, calculates angle and distance to move
+// Author: Roger deBry
+// Date last modified: March 2014
+// -------------------------------------------------------
+
+using System;
+
+class Program
+{
+    
+    // constants are all upper case and names are meaingful
+    // use constants to declare values that will not change
+    const double RADIANS_TO_DEGREES = 180.0 / Math.PI;    
+    
+    static void Main()
+    {
+        // inside of the curly braces, everything is indented a few spaces
+        // variable names are all lower case and are meaningful
+        double width;
+        double height;
+        double hypotenuse;
+        double theta;
+	
+        // note how empty lines are used to 
+        // tell the user what the program does
+        make the code easier to read
+        Console.WriteLine("This program moves a robot from the origin to");
+        Console.WriteLine("a point that you specify.");
+	
+        // prompt the user for x coordinate and get user's input
+        Console.Write("Please enter the x-coordinate of that point: ");
+        width = double.Parse(Console.ReadLine( ) );
+	
+        // prompt the user for y coordinate and get user's input
+        Console.Write("Please enter in the y-coordinate of that point: ");
+        height = double.Parse(Console.ReadLine( ) );
+	
+        //a space is put on either side of binary operators like + and *
+        // calculate the hypotenuse
+        hypotenuse = Math.Sqrt(width * width + height * height);
+        theta = Math.Atan(height / width) * RADIANS_TO_DEGREES;
+	
+        // output the results
+        Console.WriteLine("Turn the robot {0:f} degrees, and", theta);
+        Console.WriteLine("then move {0:f} units.", hypotenuse);
+        Console.ReadLine();
+    }
+}

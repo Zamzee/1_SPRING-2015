@@ -1,0 +1,8 @@
+Thank you everyone that attended the SI Sessions last week. Here is the planned SI Session's time and location information that will be in effect for the duration of the semester.
+///////////////////////////////////////////////////////////
+Tuesdays - 9:00 am in room CS-615B
+Wednesdays - 5:00 pm in room CS-615
+Fridays - 12:00 pm in room CS-615
+//////////////////////////////////////////////////////////
+Each session will be around 50 minutes long.
+Please try to attend one or two SI Sessions per week.  They will each be different and I believe they will greatly enhance your programming knowledge. We are hoping to get the online conferencing software up and running this week.  I will let you guys know as soon as we implement it.  It is a program through Canvas, so you will not need to download any additional software.  If you can, attend the sessions in person even after the conferencing software is available.  However, attending the sessions online is better than not attending at all. I hope to see you in CS-615B tomorrow at 9 am, we will be discussing GUI, event handling, and we will review data types and using variables in C#!

@@ -1,0 +1,5 @@
+http://pokemondb.net/
+- Pokedex and Move Info
+
+http://www.serebii.net/games/mechanics.shtml
+- Game Mechanics Info

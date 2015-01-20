@@ -1,0 +1,16 @@
+Bulbasaur
+=========
+- Bulbasaur
+- Grass Type
+- 45 HP
+- 49 Attack
+- 49 Defense
+- 45 Speed
+
+- Move 1 (Tackle) Lvl 1
+
+- Move 2 (Growl) Lvl 1
+
+- Move 3 (Leech Seed) Lvl 7
+
+- Move 4 (Vine Whip) Lvl 13

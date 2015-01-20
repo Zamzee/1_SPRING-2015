@@ -1,0 +1,25 @@
+Pokemon
+========
+-  Name
+- Primary Type
+- Secondary Type
+- Level
+
+- Hitpoints
+
+- Attack
+- Defense
+
+- Special Attack
+- Special Defense
+- Speed
+
+- XP
+- Next Level
+==============
+-Move 1
+- Type
+- PP
+- Power
+- Accuracy
+- Effect

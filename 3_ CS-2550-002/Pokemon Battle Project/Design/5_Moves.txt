@@ -1,0 +1,151 @@
+Move
+====================
+- Move Name
+- Type
+- Category
+- PP (Power Points)
+- Power
+- Accuracy
+- Effect
+- Target
+====================
+
+1)
+=============
+Tackle
+=============
+- Tackle
+- Normal
+- Physical 
+- PP 35
+- Power: 35
+- Accuracy: 95%
+- Effects: Damage
+- Target: Foe
+==============
+
+2)
+==============
+Growl
+==============
+- Growl
+- Normal
+- Status 
+- PP 40
+- Power: none
+- Accuracy: 100%
+- Effects: -1 Attack
+- Target: Foe 
+==============
+
+3)
+===============
+Leech Seed
+===============
+- Leech Seed
+- Grass
+- Status
+- PP 10
+- Power: None
+- Accuracy: 90%
+- Effects: Drains 1/8 foe's HP, restores HP value to user's HP (1/16th Gen 1) (does not work on grass type)
+- Targets: Foe and User 
+==================
+
+4)
+===============
+Vine Whip
+===============
+- Vine Whip
+- Grass
+- Physical
+- PP 25 (10 in Gen 1)
+- Power: 45 (35 in Gen 1)
+- Accuracy: 100%
+- Effect: Damage
+- Target: Foe
+===============
+
+5)
+================
+Tail Whip
+================
+- Tail Whip
+- Normal
+- Status
+- PP 30
+- Power: none
+- Accuracy: 100%
+- Effect: -1 Defense
+- Target: Foe
+================
+
+6)
+=================
+Water Gun
+=================
+- Water Gun
+- Water
+- Special
+- PP 25
+- Power: 40
+- Accuracy: 100%
+- Effect: Damage
+- Target: Foe
+==================
+
+7)
+================
+Bubble
+================
+- Bubble
+- Water
+- Special
+- PP 30
+- Power: 40 (20 in Gen 1)
+- Accuracy: 100%
+- Effect: Damage, 10% chance of -1 Speed
+- Target: Foe
+=================
+
+8) 
+=================
+Scratch
+=================
+- Scratch
+- Normal
+- Physical
+- PP 35
+- Power: 40
+- Accuracy: 100%
+- Effect: Damage
+- Target: Foe
+=================
+
+9)
+=================
+Ember
+=================
+- Ember
+- Fire
+- Special
+- PP 25
+- Power: 40
+- Accuracy: 100%
+- Effect: Damage, 10% burn chance
+- Target: Foe
+=================
+
+10)
+=================
+Leer
+=================
+- Leer
+- Normal
+- Status
+- PP 30
+- Power: none
+- Accuracy: 100%
+- Effect: -1 Defense
+- Target: Foe
+=================

@@ -1,0 +1,21 @@
+Pokemon
+========
+-  Name
+-  Type
+- Hitpoints
+- Attack
+- Defense
+- Accuracy
+- Evasion
+- Speed
+
+- Move 1
+- Move 2
+- Move 3
+- Move 4
+==============
+
+
+
+
+

@@ -1,0 +1,89 @@
+-Lookup/ read-about Bootstrap
+
+
+CSS Style for HTML
+==================
+
+Colors
+======
+
+- RGB Values 0-255 for colors
+- #ff ff ff - # 00 00 00
+--Hexadecimal value range for RGB  R  G  B
+
+ex)  <div class="type" role="descrip" style="
+color: #39F281;
+background-color: aliceblue;
+">
+</div>
+
+Padding vs Margins
+==================
+padding: 100px
+margin: 100px
+
+Margin- 
+Padding- 
+
+===================
+
+====================================================
+= lsdkdfkdjnfkjdf	(no padding in this element)
+= dsfjnvdkfnkd
+= dfjnkdfjndkjdj
+====================================================
+
+Margin (In-between)
+
+====================================================
+=
+=	padding (blank space on the element)
+=
+=
+= askjasfjkhsdnfksjvghkasnfjk
+= ahsdjkhksjdbfkshfvksndks
+====================================================
+
+CSS POSITIONING
+===============
+- the CSS position property
+- place an HTML element within a container
+- FOUR possible values:
+-static
+-relative
+-absolute
+-fixed
+
+Example 1)
+
+element.style {
+display: none;
+position: fixed; //or relative, static, absolute
+top: 100px;
+left: 100px;
+
+Example 2)
+
+
+<img src="L2.png"
+style="position: relative; left:100px; top: 20px;">
+
+
+Specifying a position
+-top	-height
+-left	-width
+-bottom	-right
+
+======================================================
+
+
+
+
+
+
+
+
+
+
+
+
