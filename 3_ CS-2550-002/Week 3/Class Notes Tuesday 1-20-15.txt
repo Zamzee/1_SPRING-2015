@@ -1,0 +1,64 @@
+CSS Review
+===========
+
+Display - inline, none, block
+Positioning- 
+Float (left or right)
+Borders
+
+Font-
+font family - 
+font style -
+font size
+
+//////////////////////////////////////////////
+
+JavaScript
+===========
+
+- scripting language
+- weakly typed
+- every time a new page is loaded, any variables/functions etc are cleared from 	the previous page that sent you there (they will no longer be available)
+- strings are immutable (cannot change them after defining it)
+
+- when declaring a variable always use "var" tag, to make it local
+
+
+function declaration
+====================
+
+- the parameter names are the 'alias' for each parameter
+function say_hi("Mike, 30)
+
+
+example
+=======
+
+function say_hi(name, age)
+{
+console.log(name);
+console.log(age);
+return 20;
+}
+
+
+- window object
+ -scripts may only close the windows that were opened by it. 	window.close() function
+
+getElementBy...
+===============
+getElementById('hplogo')
+<img alt="Google" height="95" id="hplogo" src="/images/srpr/logo11w.png"
+
+getElementByTagName("div")
+
+
+/////////////////
+
+
+document.getElementById("nameText");
+[<input type="text" id="nameText">
+document.getElementById("nameText").value = "test";
+"test"
+
+
