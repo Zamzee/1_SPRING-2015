@@ -6,7 +6,8 @@ Primary
 *1) Section 1.8, due Wednesday 1/21/15 (MATH-1210)
 *2) Assignment #1 due yesterday (CS-2550)
 *3) Try out Big Blue Button (SI)
-*4) Commit changes to Github (Misc)
+
+*0) Commit changes to Github (Misc)
 
 Secondary
 ==============================================
