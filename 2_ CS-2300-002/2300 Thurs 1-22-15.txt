@@ -1,0 +1,86 @@
+Quiz Corrections
+=================
+
+1)
+If I study hard, then I will do well in discrete math.
+p - if I study hard
+q - I will do well in discrete math
+
+if p --> q
+
+Inverse- you eith negate all or none, never just one element
+
+Converse- Switches p --> q to q --> p
+
+Contrapositive- If I do well in discrete math then I studied hard
+
+2) Make a truth table for p --> q
+
+|=======|=======|=========|
+|p	| q	| p --> q |
+|=======|=======|=========|
+|T	|T	|T	  |
+|=======|=======|=========|
+|T	|F	|F	  |
+|=======|=======|=========|
+|F	|T	|T	  |
+|=======|=======|=========|
+|F	|F	|T	  |
+|=======|=======|=========|
+
+Answer to:
+ Why we test 2 true conditions for p and 2 false conditions for p instead of just each condition for p (True or False).
+
+
+(p --> q) --> r
+
+use the picture from stephanies truth table
+
+| p	| q	| r	  |p --> q | (p --> q) --> r|
+|=======|=======|=========|========|================|
+|p	| q	| p --> q |        |		    |
+|=======|=======|=========|================|========|
+|T	|T	|T	  |	T   |	T  |
+|=======|=======|=========|================|
+|T	|T	|F	  |	T   |	 F  |
+|=======|=======|=========|================|
+|T	|F	|T	  |	   |	   |
+|=======|=======|=========|================|
+|F	|F	|T	  |	   |	   |
+|=======|=======|=========|================|
+
+
+
+
+
+Sidenote- atomic statements mean that the statement is as simplified as possible, like an atom.
+
+
+
+
+3) Expanding a binomial cubed Easy as Pi ;)
+
+Topics covered in lecture
+==========================
+
+- Universal Instantiation (UI)
+
+- Universal Generalization (UG)
+
+- Existential Generalization (EG)
+
+- Using Rules of Inference
+
+
+
+
+
+
+
+
+
+
+
+
+
+

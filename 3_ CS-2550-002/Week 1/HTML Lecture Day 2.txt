@@ -7,7 +7,7 @@ text text text <br /> // creates a newline or breakline
 text text
 text text text
 
-<\p> 
+<\p>
 
 
 <i>some</i> // italics
@@ -22,7 +22,7 @@ for (int i = 0; i < 10; i++)
 
 <cite>Have a great day.</cite> // creating a citation
 
-<div> // allows you to edit specific parts of a paragraph without 		changing other parts it divides or breaks a span
+<div> // allows you to edit specific parts of a paragraph without changing other parts it divides or breaks a span
   Hello
 </div>
 </div>
@@ -30,7 +30,7 @@ for (int i = 0; i < 10; i++)
 </div>
 
 
-<span> // span lets you edit a specifc part of code from a 		specified beginning and an end
+<span> // span lets you edit a specific part of code from a specified beginning and an end
  Hello
 </span>
 
@@ -57,7 +57,7 @@ for (int i = 0; i < 10; i++)
 </nav>
 
 
-* all of these names are either divs or spans but with specific 
+* all of these names are either divs or spans but with specific
 	labels to better describe the function/purpose
 	 of the code in that section
 
@@ -96,14 +96,3 @@ POST - to send a body of data (used by default)
 PUT -
 DELETE -
 HEAD -
-
-
-
-
-
-
-
-
-
-
-

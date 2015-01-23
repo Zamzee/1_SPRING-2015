@@ -1,0 +1,14 @@
+CS-1400-X01 FRIDAY SI SESSION
+
+AGENDA
+1) Course Tips for Success
+
+2) Review Data types
+
+3) Review C# Program Basics
+
+/////////////////////////////////
+
+Lab #3
+======
+
