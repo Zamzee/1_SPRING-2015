@@ -1,17 +1,34 @@
 //////////////////////////////////////////////
 TODAY
 ==============================================
-Primary
+Primary Tasks
 ==============================================
-	X*1) Assignment #1 due yesterday (CS-2550)
+SI / Tutoring
+*1) Prepare SI session Tuesday (SI)
 *2) Try out Big Blue Button (SI)
-*3) Find someone to cover shift on Monday (Tutoring)
-*4) Read Ch-1 (CS-2300)
-*5) Assignments #1, #2, #3 (CS-2300)
-6) Help Ernie fix his guitar
+*3) Setup Office Hours and make announcement (SI)
+*4) Total hours and Enter into TIMS (SI)
+=======================================
+
+Education Tasks
+==============
+Calculus
+*1) 2.1 Study and Complete Assignment, due Tuesday (MATH)
+*2) Quiz Today on "The Diagram" from section 2.1 (MATH)
+
+CS-2300
+*3) Read Ch-1 (CS-2300)
+*4) Assignments #1, #2, #3 (CS-2300) due Tuesday
+
+CS-2550
+*5) Read Chapters 2-5 (2550)
+*6) Assignment 2, take quiz on JavaScript (CS-2550)
+
+*7) Finalize Weekly Schedule (Misc)
+
 --- Commit changes to Github (Misc)
 
-Weekend Tasks
+Secondary Tasks
 ==============================================
 
 *1) Finalize Weekly Schedule (Misc)
@@ -39,6 +56,8 @@ Weekend Tasks
 
 MATH 1210-004
 ==============================================
+1) 2.1 Study and Complete Assignment, due Tuesday
+2) Quiz Today on "The Diagram" from section 2.1
 		X*1) Section 1.8, due Wednesday 1/21/15
 		X2) Review Section 1.6 1-11
 		X3) Study for Test on Thursday
@@ -77,12 +96,11 @@ CS 2420-601
 
 SI / Tutoring
 ==============================================
-	X1) Announce SI session Times
-*2) Prepare SI session Friday
-*3) Try out Big Blue Button
-*4) Setup Office Hours and make announcement
-5) Do Project #1
-*6) Total hours and Enter into TIMS by Friday 1/23/15
+*1) Prepare SI session Tuesday
+*2) Try out Big Blue Button
+*3) Setup Office Hours and make announcement
+	4) Do Project #1
+*5) Total hours and Enter into TIMS
 
 
 PES 1057-002
