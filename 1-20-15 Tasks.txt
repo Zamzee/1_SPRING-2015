@@ -3,7 +3,7 @@ TODAY
 ==============================================
 Primary
 ==============================================
-*1) Assignment #1 due yesterday (CS-2550)
+	X*1) Assignment #1 due yesterday (CS-2550)
 *2) Try out Big Blue Button (SI)
 *3) Find someone to cover shift on Monday (Tutoring)
 *4) Read Ch-1 (CS-2300)
