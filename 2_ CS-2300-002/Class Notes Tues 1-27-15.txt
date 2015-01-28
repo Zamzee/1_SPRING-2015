@@ -1,0 +1,47 @@
+Original Proposition p --> q
+
+Inverse: !p --> !q
+
+Converse: q --> p
+
+Contrapositive: !q --> !p
+============================
+
+
+BiConditional <->  -means "if and only if"
+
+p <-> q "p if and only if q" 
+
+- is true when p and q have the same truth values, and is false otherwise
+
+- Like an AND operation
+
+==========================================
+
+-Assignment 1 #12 does not display symbols correctly
+
+Quiz on Thursday
+=================
+
+1) Nested quantifiers
+
+2) Rules of Inference
+
+Review
+======
+- De Morgan's Laws for Quantifiers
+
+- Rules of Inference for Propositional Calculus
+
+- Rules of Inheritance for Quantified Statements
+
+
+======================================================
+
+- Inclusive OR	- This OR that OR both
+
+-Exclusive OR  - This OR that but NOT Both
+
+
+
+
