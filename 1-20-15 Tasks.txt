@@ -4,8 +4,8 @@ TODAY
 Primary Tasks
 ==============================================
 SI / Tutoring
-*1) Prepare SI session Tuesday (SI)
-*2) Try out Big Blue Button (SI)
+	X*1) Prepare SI session Tuesday (SI)
+	X*2) Try out Big Blue Button (SI)
 *3) Setup Office Hours and make announcement (SI)
 *4) Total hours and Enter into TIMS (SI)
 =======================================
@@ -14,15 +14,16 @@ Education Tasks
 ==============
 Calculus
 *1) 2.1 Study and Complete Assignment, due Tuesday (MATH)
-*2) Quiz Today on "The Diagram" from section 2.1 (MATH)
+	X*2) Quiz Today on "The Diagram" from section 2.1 (MATH)
 
 CS-2300
 *3) Read Ch-1 (CS-2300)
-*4) Assignments #1, #2, #3 (CS-2300) due Tuesday
+	X*4) Assignments #1, #2, #3 (CS-2300) due Tuesday
 
 CS-2550
 *5) Read Chapters 2-5 (2550)
-*6) Assignment 2, take quiz on JavaScript (CS-2550)
+*6) Assignment 2, 
+	X)take quiz on JavaScript (CS-2550)
 
 *7) Finalize Weekly Schedule (Misc)
 
@@ -34,7 +35,7 @@ Secondary Tasks
 *1) Finalize Weekly Schedule (Misc)
 
 *2) Read Ch-1 (CS-2300)
-*3) Assignments #1, #2, #3 (CS-2300)
+	X*3) Assignments #1, #2, #3 (CS-2300)
 
 *4) Read Ch-2 (CS-2550)
 *5) Read Ch-3 (CS-2550)
