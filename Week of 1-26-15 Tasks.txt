@@ -4,7 +4,7 @@ TODAY
 Primary Tasks
 ==============================================
 SI / Tutoring
-	X*1) Prepare SI session Tuesday (SI)
+*1) Prepare SI session Friday (SI)
 	X*2) Try out Big Blue Button (SI)
 *3) Setup Office Hours and make announcement (SI)
 *4) Total hours and Enter into TIMS (SI)
@@ -12,18 +12,23 @@ SI / Tutoring
 
 Education Tasks
 ==============
+CS-2420
+*1) Project #1 due Thursday 
+
 Calculus
-*1) 2.1 Study and Complete Assignment, due Tuesday (MATH)
-	X*2) Quiz Today on "The Diagram" from section 2.1 (MATH)
+*1) Section 2.2 due Friday
+*2) Test Corrections due Friday
+	1) 2.1 Study and Complete Assignment, due Tuesday (MATH)
+		X*2) Quiz Today on "The Diagram" from section 2.1 (MATH)
 
 CS-2300
-*3) Read Ch-1 (CS-2300)
-	X*4) Assignments #1, #2, #3 (CS-2300) due Tuesday
+	*3) Read Ch-1 (CS-2300)
+		X*4) Assignments #1, #2, #3 (CS-2300) due Tuesday
 
 CS-2550
-*5) Read Chapters 2-5 (2550)
-*6) Assignment 2, 
-	X)take quiz on JavaScript (CS-2550)
+	*5) Read Chapters 2-5 (2550)
+	*6) Assignment 2 due Monday 2/2/15 
+		X)take quiz on JavaScript (CS-2550)
 
 *7) Finalize Weekly Schedule (Misc)
 
@@ -67,15 +72,15 @@ MATH 1210-004
 CS 2300-002
 ==============================================
 		X*** Get access to new Connect website ***
-1) Read 1.1
-2) Read 1.2
-*3) Assignment #1 due Tuesday 1/27/15
+	X1) Read 1.1
+	X2) Read 1.2
+	X*3) Assignment #1 due Tuesday 1/27/15
 4) Read 1.3
 5) Read 1.4
-*6) Assignment #2 due Tuesday 1/27/15
+	X*6) Assignment #2 due Tuesday 1/27/15
 7) Read 1.5
 8) Read 1.6
-*9) Assignment #1 due Tuesday 1/27/15
+	X*9) Assignment #1 due Tuesday 1/27/15
 
 CS 2550-001
 ==============================================
@@ -97,8 +102,8 @@ CS 2420-601
 
 SI / Tutoring
 ==============================================
-*1) Prepare SI session Tuesday
-*2) Try out Big Blue Button
+*1) Prepare SI session Friday
+	X*2) Try out Big Blue Button
 *3) Setup Office Hours and make announcement
 	4) Do Project #1
 *5) Total hours and Enter into TIMS
