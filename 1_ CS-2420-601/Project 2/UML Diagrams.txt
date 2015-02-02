@@ -1,0 +1,34 @@
+===============
+Node
+===============
+- Node* lhLink
+- Node* rhLink
+- int dataNum
+===============
++ Node()
++ Node(int numInput, Node* previous = NULL, Node* follow = Null)
++
+===============
+
+///////////////////////////
+Node Notes
+=========
+Node::Node(int numInput, Node* previous, Node* follow)
+{
+int dataNum = numInput;
+lhLink = previous;
+rhLink = follow;
+}
+============================================================
+
+==============
+List
+==============
+- Node* head
+- int count
+==============
++ List()
++ void insert(int)
++ void insertOrder(int)
++ void taverse()
++ void taversePrint(void(*visit)(Node* p))
