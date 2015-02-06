@@ -45,6 +45,7 @@ int main()
 	// Open the file
 	if (idataFile.fail())
 		cout << "couldn't open file." << endl;
+
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Fixing the idataFile check
 	// If user enters an invalid file name, Prompt user to enter the correct file name
@@ -85,9 +86,9 @@ int main()
 
 	//}
 
-	//	cout << "\nSingle List:";
-	//	singleList.traversePrint(print);
-	//	cout << endl;
+		cout << "\nSingle List:";
+		singleListA.traversePrint(print);
+		cout << endl;
 
 	system("pause");
 	return 0;

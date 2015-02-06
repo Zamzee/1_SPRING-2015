@@ -1,7 +1,0 @@
-// File Prologue
-/////////////////////////////////////////
-// Class: CS-2420
-// Project: Program 2 - Linked Lists
-// Name: Russell Andlauer
-// Date Last Modified: February 3rd, 2015
-/////////////////////////////////////////
