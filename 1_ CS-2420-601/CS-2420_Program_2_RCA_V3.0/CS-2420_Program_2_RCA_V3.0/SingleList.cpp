@@ -1,9 +1,9 @@
-// File Prologue
 /////////////////////////////////////////
-// Class: CS-2420
+// File Prologue
+// Author: Russell Andlauer
+// Class: CS-2420-601
 // Project: Program 2 - Linked Lists
-// Name: Russell Andlauer
-// Date Last Modified: February 3rd, 2015
+// Date Last Modified: February 5th, 2015
 /////////////////////////////////////////
 
 #include "SingleList.h"
@@ -32,19 +32,20 @@ void SingleList::insert(int inputNum)
 	Node* p = nullptr;
 	Node* q = new Node(inputNum);
 
+	// If new Node is the first Node in the SingleList
 	if (head == nullptr)
 	{
 		head = q;
 		head->rhLink = nullptr;
 	}
 
+	// If new Node is not the first Node in the SingleList
 	else
 	{
 		p = head;
 		while (p->rhLink != nullptr)
 		{
 			p = p->rhLink;
-			//cout << count;
 		}
 		p->rhLink = q;
 		q->rhLink = nullptr;

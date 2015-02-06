@@ -1,9 +1,9 @@
-// File Prologue
 /////////////////////////////////////////
-// Class: CS-2420
+// File Prologue
+// Author: Russell Andlauer
+// Class: CS-2420-601
 // Project: Program 2 - Linked Lists
-// Name: Russell Andlauer
-// Date Last Modified: February 3rd, 2015
+// Date Last Modified: February 5th, 2015
 /////////////////////////////////////////
 
 #include "SingleList.h"
@@ -31,7 +31,6 @@ int main()
 
 	// Print Name, Class, Section Number, Program Number
 	cout << "Russell Andlauer\nCS-2420-601\nProgram 2: Linked Lists" << endl;
-	///////////////////////////////////////////////////////////////////////////////////////////////////
 
 	// Prompt user for the filename (Handle Exception for improper opening)
 	cout << "\nPlease enter the name of the file to read the integers from..." << endl;
@@ -66,17 +65,15 @@ int main()
 	// Check for end of file
 	//while (!(idataFile.eof()))
 	//{	
+
+	// Read an integer from the file
 	while (idataFile >> tempInt)
 	{
-		// Read an integer from the file
-		// Insert the integer into a new node and add it at the end of a single linked list
+		// Insert the integer into a new Node and add the Node to the end of a single-linked list
+		// Repeat until end of file is reached
 		singleListA.insert(tempInt);
-		//cout << "insert call";
 	}
-
-	// Repeat previous step until end of file is reached
-	cout << "skipped insert call";
-	// Traverse the single linked list bode by node for each node in the list
+	// Traverse the single linked list Node by Node for each Node in the list
 
 	// Insert the integer from each node in the single linked list into the double linked list in ascending order
 
@@ -84,11 +81,9 @@ int main()
 
 	// Print each integer from the double linked list using the traverse function, passing the print function as a parameter
 
-	//}
-
-		cout << "\nSingle List:";
-		singleListA.traversePrint(print);
-		cout << endl;
+	cout << "\nSingle List:";
+	singleListA.traversePrint(print);
+	cout << endl;
 
 	system("pause");
 	return 0;

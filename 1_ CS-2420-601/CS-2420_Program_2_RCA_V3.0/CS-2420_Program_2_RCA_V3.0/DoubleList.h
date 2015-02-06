@@ -1,13 +1,13 @@
-#pragma once
+/////////////////////////////////////////
 // File Prologue
-/////////////////////////////////////////
-// Class: CS-2420
+// Author: Russell Andlauer
+// Class: CS-2420-601
 // Project: Program 2 - Linked Lists
-// Name: Russell Andlauer
-// Date Last Modified: February 3rd, 2015
+// Date Last Modified: February 5th, 2015
 /////////////////////////////////////////
-
+#pragma once
 #include "Node.h"
+#include "SingleList.h"
 
 class DoubleList
 {
@@ -21,6 +21,12 @@ public:
 	// Parameters: none
 	// Returns: none
 	DoubleList();
+	
+	//
+	//
+	//
+	//
+	DoubleList(SingleList n);
 
 	// ~List
 	// Purpose: destructor for DoubleList
