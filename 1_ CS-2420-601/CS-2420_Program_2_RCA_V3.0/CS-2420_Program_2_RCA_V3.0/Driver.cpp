@@ -73,17 +73,16 @@ int main()
 		// Repeat until end of file is reached
 		singleListA.insert(tempInt);
 	}
-	// Traverse the single linked list Node by Node for each Node in the list
 
-	// Insert the integer from each node in the single linked list into the double linked list in ascending order
 
 	// Print each integer from the single linked list using the traverse function, passing the print function as a parameter
-
-	// Print each integer from the double linked list using the traverse function, passing the print function as a parameter
-
 	cout << "\nSingle List:";
 	singleListA.traversePrint(print);
 	cout << endl;
+
+	// Traverse the single linked list Node by Node for each Node in the list
+	// Insert the integer from each node in the single linked list into the double linked list in ascending order
+	// Print each integer from the double linked list using the traverse function, passing the print function as a parameter
 
 	system("pause");
 	return 0;

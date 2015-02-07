@@ -22,10 +22,10 @@ public:
 	// Returns: none
 	DoubleList();
 	
-	//
-	//
-	//
-	//
+	// Name: DoubleList()
+	// Purpose: Paramaterized constructor for the DoubleList
+	// Parameters: SingleList n
+	// Returns: none
 	DoubleList(SingleList n);
 
 	// ~List
