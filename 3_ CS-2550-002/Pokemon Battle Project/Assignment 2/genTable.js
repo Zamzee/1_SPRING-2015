@@ -1,0 +1,3 @@
+function genTable() {
+var size
+}

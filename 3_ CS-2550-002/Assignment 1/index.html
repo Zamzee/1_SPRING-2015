@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 1: Pokemon Battle Game Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+
+  </div>
+  <div>
+    <h1>Pokemon Battle</h1>
+      <h2>Game Description:</h2>
+      <p>-A turn-based creature fighting game. Designed to behave as closely as possible to
+        the original "Pokemon" games for the Nintendo Gameboy</p>
+        <br>
+        <a href ="http://en.wikipedia.org/wiki/Pok%C3%A9mon#Name">Pokemon Game Description from Wikipedia</a>
+        <br>
+        <div>
+        <img src="http://retrowaretv.com/wp-content/uploads/2013/10/Pokemon-Battle.png"/><br>
+        <h4>Image taken from: http://retrowaretv.com/wp-content/uploads/2013/10/Pokemon-Battle.png</h4>
+      </div>
+
+      <h2>Game Grid</h2>
+<div>
+  <a href= "grid.html" target="_blank">Prototype of the Pokemon Battle UI</a>
+</div>
+  </div>
+  <div>
+    <h2>Objects and Arrays Needed to Represent Game Data:</h2>
+  <h3>-Pokemon</h3>
+  <p>	-Each Pokemon object will have a name, a type, hitpoints, four moves, and an attribute for
+    attack, defense, accuracy, evasion, and speed.</p>
+    <ul><li>- name - string data type</li>
+      <li>- type - string data type</li>
+      <li>- hitpoints - integer data type</li>
+      <li>- each move will be a function</li>
+      <li>- attack, defense, accuracy, evasion, and speed attributes will all be arrays with 13 elements of integers</li>
+      </ul>
+      <h2>Functions Needed</h2>
+      <h3>-Move Functions</h3>
+      <p>-There are 10 different moves available to use.  Each Pokemon will use 4 of the moves.<br>
+        -There are to be 3 different Pokemon for the user to choose from upon starting the game, some moves are common to more than one Pokemon.<br>
+        -Each move will have several attributes.</p>
+      <ul>
+        <li>- Move Name - string data type - name of the Move</li>
+        <li>- Move Type - string data type - type of the Move (fire, water, ground, electric etc) - this affects the efficacy of the attack on the target Pokemon</li>
+        <li>- Move Category - string data type - category of the Move (Physical, Status, or Special) - this affects which attributes of the target Pokemon the Move changes</li>
+        <li>- Move PP - Power Points - integer data type - this is a counter of how many times a Move can be used in a single battle.  Each time the Move is used -1 to the counter</li>
+        <li>- Move Power - integer data type - how much damage output the Move does to the damage multiplier</li>
+        <li>- Move Accuracy - double data type - the chance the Move will hit the target Pokemon</li>
+        <li>- Move Effect - string data type - which attribute the Move will affect</li>
+        <li>- Move Target - string data type - which Pokemon the Move will apply to</li>
+      </ul>
+      <h3>Calculation and GUI functions</h3>
+      <ul>
+      <li>- Calculate Damage Function
+      :This will use the attributes of the Move that is used on the given turn to calculate the damage output</li>
+
+      <li>- Calculate Change Attribute Function:
+      This will use the attributes of the Move that is used on the given turn to calculate the attributes of the target Pokemon that will be changed as a result</li>
+
+      <li>- Update Pokemon Stats Function
+      This will change all the affected attributes, hitpoints, and power points of each Pokemon after every turn and display the results to the user.</li>
+
+      <li>- Messages Function
+      This will display the various messages that are part of each turn.<br>
+      * may need to be broken up into several functions<br>
+      Parameters: the result of the Calculate Damage Function or the Calculate Change Attribute Function, depending on the move used that particular turn</li>
+      </ul>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+h1{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4286B4;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+h2{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4286B4;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+h3{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4286B4;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+body{
+  background-color: #D2B48C;
+}
+
+div{
+  width: 700px;
+}
+
+ul{
+  width: 600px;
+  background-color: #8FBC8F;
+  padding:20px;
+}
+
+
+.PKMN_Name{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+
+}
+
+.PKMN_Level{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+}
+
+.PKMN_HP_STAT{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+}
+
+.PKMN_HP_BAR{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+}
+
+.Blank{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+  padding:60px;
+  width:225px;
+}
+.Blank2{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+  width:100px;
+}
+
+.Moves_Display{
+  font-family: "Times New Roman", Times, serif;
+  background-color: #FFFFFF;
+}
