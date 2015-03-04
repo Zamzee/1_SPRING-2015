@@ -1,0 +1,64 @@
+// CS 1400 Example Program #5
+// Scholarship Calculator
+// Determines if a student gets a scholarship
+// This program assumes that all input is correct
+// ---------------------------------------------------
+
+using System;
+
+class Program
+{
+    const double TUITION = 2500.00; 
+    
+    static void Main()
+    {
+        double gpa;              // student's grade point average
+        double workHours;  // student's work hours
+        double income;        // student's monthly income
+        char fullTime;      // is student full time
+        double amount = 0;
+	
+        // Gather the student information necessary to make decision
+        Console.WriteLine("Scholarship Calculator.......");
+        Console.Write("Is this student going to school full time (y or n): ");
+        fullTime = char.Parse(Console.ReadLine( ) );
+	
+        Console.Write("What is this student's grade point average? ");
+        gpa = double.Parse(Console.ReadLine( ) );
+	
+        Console.Write("How many hours a week does this student work? ");
+        workHours = double.Parse(Console.ReadLine( ) );
+	
+        Console.Write("What is this student's net monthly income? ");
+        income = double.Parse(Console.ReadLine( ) );
+	
+        // make the decisions necessary to calculate the scholarship
+        if ( fullTime == 'y')
+        {
+            if (gpa >= 4.0)
+		    {
+			    amount = TUITION - income;
+		    }
+		    else if (gpa >= 3.5)
+		    {
+			    amount = 0.75 * (TUITION - income);
+		    }
+		    else if (gpa >= 3.0 && workHours <=20)
+		    {
+			    amount = 0.50 * (TUITION - income);
+		    }
+	    }
+	
+	    // print results of calculation  .. if amount is > 0
+	    if (amount > 0)
+	    {
+		    Console.WriteLine("A scholarship is awarded in the amount of {0:C}", amount);
+	    }
+	    else
+	    {
+		    Console.WriteLine("This student does not qualify for a scholarship.");
+	    }
+	
+        Console.ReadLine( );
+    }
+}
