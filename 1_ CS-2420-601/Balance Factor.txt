@@ -1,0 +1,186 @@
+
+#include "stdafx.h"
+// This program gets data from a data file,builds an ordered single linked list and then
+// traverses the list using just using regular traverse and then traverses the same list
+// using print function
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
+
+typedef int Node_entry;
+
+struct Node{			// Node definition
+	Node_entry entry;
+	Node *llink;
+	Node * rlink;
+	int bf;
+	Node();
+	Node(int);
+};
+
+Node::Node() 		// Node Contructor
+{
+	llink = rlink = NULL;
+	bf = 0;
+}
+
+Node::Node(int item)
+{
+	entry = item;
+	llink = rlink = NULL;
+	bf = 0;
+}
+
+
+class Tree		// List definition
+{
+	public:
+		Tree();
+		void insert(int);
+		void traverse();
+		void bfactor();
+		//void traversePrint(void(*visit)(Node *));
+	protected:
+		int count;
+		Node * root;
+};
+
+void print(Node *p)		// Print function to be passed to traverse function
+{
+	cout << p->entry << endl;
+}
+
+int main()		// Main function starts here
+{
+	Tree BSTree;
+	ifstream inputFile;
+	string fileName;
+	cout << "Please enter the name of data file ";
+	cin >> fileName;
+	inputFile.open(fileName.c_str());
+	//inputFile.open("C:\\data.txt");
+	if (inputFile.fail())
+	{
+		cout << "Error opening " << fileName << "\n";
+		return 1;
+	}
+
+	int data;
+	inputFile >> data;
+	cout << "Content of Data File" << endl;
+	while (!inputFile.eof())
+	{
+		cout << data << endl;
+		BSTree.insert(data);
+		inputFile >> data;
+	}
+	inputFile.close();
+	cout << endl;
+	BSTree.bfactor();
+	cout << "Content of tree" << endl;
+	BSTree.traverse();		// Just traverse
+	cout << endl;
+	//cout << "Content of List Using Print Function to Traverse" << endl;
+	//BSTree.traversePrint(print);	// traverse by passing print
+	char c;
+	cin >> c;
+	//cin.get();
+	return 0;
+}
+
+
+Tree::Tree()		// List constructor
+{
+	count = 0;
+	root = NULL;
+}
+
+
+void Tree::insert(int num) 			//Insert into an ordered list
+{
+
+	if (root == NULL)
+	{
+		root = new Node(num);
+	}
+	else
+	{
+		Node *p, *q;
+		p = root;
+		q = NULL;
+		while (p != NULL && p->entry != num)
+		{
+			q = p;
+			if (num < p->entry)
+				p = p -> llink;
+			else
+				p = p -> rlink;
+		}
+		if (p != NULL)
+			cout << "Duplicate Data";
+		else
+		{
+			if (num < q->entry)
+				q->llink = new Node(num);
+			else
+				q -> rlink = new Node(num);
+		}
+	}
+	count++;
+}
+
+void ttraverse(Node * r)
+{
+	if (r != NULL)
+	{
+		ttraverse(r->llink);
+		cout << '\n' << r-> entry << " " << r -> bf;
+		ttraverse(r->rlink);
+	}
+}
+
+void Tree::traverse()	// Regular traverse function
+{
+	if (root != NULL)
+		ttraverse(root);
+
+}
+int max(int a, int b)
+{
+	
+	int m = a;
+	if (b > a)
+		m = b;
+	return m;
+
+}
+
+int height(Node * p)
+{
+	if (p == NULL)
+		return 0;
+	if ((p->llink == NULL) && (p->rlink == NULL))
+		return 1;
+	return 	1 + max(height(p->llink), height(p->rlink));
+}
+
+void balfactor(Node * p)
+{
+	if (p != NULL)
+	{
+		p->bf = height(p->llink) - height(p->rlink);
+		balfactor(p->llink);
+		balfactor(p->rlink);
+	}
+}
+
+void Tree:: bfactor()
+{
+	if (root != NULL)
+	{
+		root -> bf = height(root -> llink) - height(root -> rlink);
+		balfactor(root -> llink);
+		balfactor(root -> rlink);
+	}
+}
