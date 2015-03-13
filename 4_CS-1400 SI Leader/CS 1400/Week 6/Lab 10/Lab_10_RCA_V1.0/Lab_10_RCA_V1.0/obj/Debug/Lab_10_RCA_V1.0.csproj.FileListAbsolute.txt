@@ -1,0 +1,9 @@
+c:\users\russell\documents\visual studio 2012\Projects\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\bin\Debug\Lab_10_RCA_V1.0.exe.config
+c:\users\russell\documents\visual studio 2012\Projects\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\obj\Debug\Lab_10_RCA_V1.0.csprojResolveAssemblyReference.cache
+C:\Users\Russell\documents\visual studio 2012\Projects\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\bin\Debug\Lab_10_RCA_V1.0.exe
+C:\Users\Russell\documents\visual studio 2012\Projects\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\bin\Debug\Lab_10_RCA_V1.0.pdb
+C:\Users\Russell\documents\visual studio 2012\Projects\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\obj\Debug\Lab_10_RCA_V1.0.exe
+C:\Users\Russell\documents\visual studio 2012\Projects\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\obj\Debug\Lab_10_RCA_V1.0.pdb
+C:\Users\Russell\Desktop\CS 1400\Week 6\Lab 10\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\bin\Debug\Lab_10_RCA_V1.0.exe.config
+C:\Users\Russell\Desktop\CS 1400\Week 6\Lab 10\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\obj\Debug\Lab_10_RCA_V1.0.exe
+C:\Users\Russell\Desktop\CS 1400\Week 6\Lab 10\Lab_10_RCA_V1.0\Lab_10_RCA_V1.0\obj\Debug\Lab_10_RCA_V1.0.pdb

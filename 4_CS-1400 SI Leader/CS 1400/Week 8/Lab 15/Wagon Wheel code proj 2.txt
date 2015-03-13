@@ -1,0 +1,19 @@
+ private void run()
+        {
+            const double ONE_MILE = 63360; 
+            ///Get user input from TxtBox_Wheel Diam
+            ///Save user input as double WheelDiam
+            double WheelDiam = double.Parse(TxtBox_WheelDiam.Text);
+
+            ///Calculate Wheel Circumference based on user input for diameter
+            double WheelCircumference = Math.PI * WheelDiam;
+
+            ///Turns_per_Mile = ONE_MILE / WheelCircumference
+            double Turns_per_Mile = ONE_MILE / WheelCircumference;
+            
+            ///Display Turns_per_Mile Result in the TxtBox_TurnNum
+            TxtBox_TurnNum.Text = Turns_per_Mile.ToString();
+
+            ///Move cursor to TxtBox_TurnNum after 'tab' key is pressed
+            TxtBox_TurnNum.Focus();
+        }

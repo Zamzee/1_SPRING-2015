@@ -1,0 +1,6 @@
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_25_RCA_V1.0\Lab_25_RCA_V1.0\bin\Debug\Lab_25_RCA_V1.0.exe.config
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_25_RCA_V1.0\Lab_25_RCA_V1.0\bin\Debug\Lab_25_RCA_V1.0.exe
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_25_RCA_V1.0\Lab_25_RCA_V1.0\bin\Debug\Lab_25_RCA_V1.0.pdb
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_25_RCA_V1.0\Lab_25_RCA_V1.0\obj\Debug\Lab_25_RCA_V1.0.csprojResolveAssemblyReference.cache
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_25_RCA_V1.0\Lab_25_RCA_V1.0\obj\Debug\Lab_25_RCA_V1.0.exe
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_25_RCA_V1.0\Lab_25_RCA_V1.0\obj\Debug\Lab_25_RCA_V1.0.pdb

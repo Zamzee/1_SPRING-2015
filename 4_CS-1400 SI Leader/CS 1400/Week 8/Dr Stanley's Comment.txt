@@ -1,0 +1,19 @@
+Feedback on Lab #14 UML diagram for Wagon Wheel Diameter Class
+Timothy Stanley
+Jul 2 at 12:48pm
+No unread replies. No replies.
+Dear Students,
+
+Many of you had difficulty with this project.  One problem seems to be the perspective of who is doing what to whom in a class.
+
+Setters change data in the class, while getters get data from the class.  For this project we need to set the Diameter in the class, Calculate Turns and then either return the results in that method or have a separate getter to get  the result.
+
+Since may of you missed this lab and it is needed for the lab on Thursday as well as for up coming Exam 2 I am including what I consider a perfect submission.  Thanks to Stephanie Gilchrist for this example. 
+
+Notice in this UML diagram we store just the diameter as a double.
+
+We have a method to set that diameter in our object and read it our if we would like.  
+We have a couple of methods to do calculation and return a result. 
+ Then we also have a method to reset the data.  
+
+Please study this submission in the context of the assignment specification.   You will need to make UML diagrams for Exam #2 coming up next week.

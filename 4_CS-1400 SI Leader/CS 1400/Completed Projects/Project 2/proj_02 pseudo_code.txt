@@ -1,0 +1,48 @@
+
+// Math Portion
+
+//User Enters Wheel Diameter in Inches
+
+//Find Wheel Circumference
+
+//Divide One Mile (in Inches) by the Wheel Circumference
+
+//Display Result in the Turns_per_Mile textbox
+
+////////////////////////////////////
+
+//Create a Clear Button
+
+//Reposition the Cursor in the Wheel Diameter input Textbox
+
+//Create an Exit and About Menu Item
+
+////////////////////////////////
+
+
+TxtBox_WheelDiam
+
+TxtBox_TurnNum
+
+C = (3.14) x Diameter
+
+////////////////////////////////////////////////////////////////
+MATH.PI
+ONE_MILE = 63360
+
+////////////////////////////////////////////////////////////////
+
+///Get user input from TxtBox_Wheel Diam
+
+///Save user input as double WheelDiam
+
+///WheelCircumference = Math.PI * WheelDiam
+
+///Turns_per_Mile = ONE_MILE / WheelCircumference
+
+///Display Turns_per_Mile Result in the TxtBox_TurnNum
+
+
+
+
+

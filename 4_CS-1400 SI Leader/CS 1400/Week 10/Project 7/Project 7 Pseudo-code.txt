@@ -1,0 +1,37 @@
+Variables needed
+
+int month
+
+int adults
+
+int babies
+
+int total
+
+bool under = true
+
+int max = 500
+
+--------------------------------------------------------------------------
+
+// 1. Set month = 1, adult = 1, babies = 0, total = 1
+
+// 2. Print "Month Adults Babies Total"
+
+// 3. If under is true
+	
+	// 4. increment month
+
+	// 5. babies equals adults - babies
+
+	// 6. adults equals adults + babies
+	
+	// 7. total equals adults + babies
+
+	// 8. print month adults babies total values
+
+	// 9. go back to step 3
+
+	// 10. If total is >= 500
+		
+		// 11. under is false

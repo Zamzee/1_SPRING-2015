@@ -1,0 +1,21 @@
+//Prompt User to enter the radius of one of the crop circles
+
+//Save radius as a double "R"
+
+//Multiply "R" by 2 to find the length of one side of the square
+
+//Save value as a double "SquareSideLength"
+
+//Multiply Pi * R * R to find the area of each circle
+
+//Save value as a double "AreaCircle"
+
+//Multiply "SquareSideLength" by "SquareSideLength" to find the area of the square
+
+//Save Value as a double "AreaSquare"
+
+//Subtract "AreaSquare" from "AreaCircle" to find the are of the shaded region
+
+//Save value as a double AreaShadedRegion
+
+//Output the "AreaShadedRegion" as a string in the Console say "The area of the shaded region is _______." 

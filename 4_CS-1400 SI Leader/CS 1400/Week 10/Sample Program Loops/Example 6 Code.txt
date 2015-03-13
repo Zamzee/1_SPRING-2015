@@ -1,0 +1,95 @@
+// CS 1400: Example Program 6
+// Looping Constructs
+// This program gets a binary number and converts it to decimal
+// Roger deBry
+// November 2008
+// -------------------------------------------------------------------
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        char ONE = '1';
+        char ZERO = '0';
+
+        double TWO = 2.0;
+
+        // set up the main program loop. This loop will continue as long as the user
+        // wants to keep entering binary numbers.
+        // use a do-while here so that we (a) do the loop at least once
+        // and (b) test the condition at the end of the loop
+        char userYN;
+        string binaryValue;
+        int numberSize;
+        do
+        {
+            // this loop gets a number and tests that it is valid.
+            // we stay in this loop until we have a valid binary number
+            bool okay;
+            do
+		    {
+			    okay = true;
+			    Console.WriteLine("Binary to decimal conversion program.");
+			    Console.Write("Type a binary number of 5 digits or less: ");
+			    binaryValue = Console.ReadLine( );
+		
+			    // test the number to make sure that it is binary
+			    // use the indexer [ ] in the string class to get each digit
+			    // and the size( ) function to get the number of characters
+			    // use a for loop to test each value
+			    numberSize = binaryValue.Length;
+			    for (int i = 0; i < numberSize; i++)
+			    {
+				    if ( binaryValue[ i ] != ONE && binaryValue[ i ] != ZERO)
+				    {
+					    okay = false;
+				    }
+			    }
+			
+			    if (!okay)
+			    {
+				    Console.WriteLine("That is not a valid binary number. ");
+				    Console.WriteLine("Binary numbers can only contain the digits 1 and 0.");
+			    }
+		    } while (!okay);   // end of the loop to get a valid binary number
+		
+		    // we have a valid binary number. Convert it to decimal
+		    // start at the end of the number and use a for loop to process
+		    // each digit in the number
+		    int power = 0;
+		    double decimalValue = 0;
+		    int digit;
+		    for (int i = numberSize-1; i >= 0; i--)
+		    {
+			    // convert the character '0' or '1' to integer 0 or 1
+			    char digitChar = binaryValue[ i ];
+			    if (digitChar == '1')
+					digit = 1;
+			    else
+				    digit = 0;
+			
+			    // calculate the digit times power of 2 for this digit's place
+			    decimalValue += digit * Math.Pow(TWO, power);
+			    power++;
+		    } // end of for loop
+		
+		    Console.WriteLine("The decimal value of this binary number is {0}", decimalValue);
+		
+		    // see if the user wants to do another...
+		    // use a do-while loop, stay in the loop until there is a valid response
+		    do
+		    {
+			    Console.Write("Do you want to do another conversion (y or n)? ");
+			    userYN = char.Parse(Console.ReadLine( ) );
+			    if (userYN != 'y' && userYN != 'n')
+			    {
+				    Console.WriteLine("Invalid response, please type y or n. ");
+			    }
+		    } while (userYN  != 'y' && userYN != 'n'); 
+		
+	    } while (userYN == 'y');  // end of the main program loop
+	
+	    Console.ReadLine( );
+    }
+}

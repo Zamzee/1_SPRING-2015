@@ -1,0 +1,27 @@
+// Get user input for side a
+// Save as double sideA
+
+// Get user input for side b
+// Save as double sideB
+
+// Get user input for angle
+// Save as double angle
+
+
+// FindSideCLength
+// Purpose: Find the length of Side C of a triangle
+// Parameters: length of Side A, length of Side B, angle between Side A and Side B all as doubles
+// Returns: Length of Side C as a double
+
+// Convert angle from degrees to radians
+	// (Multiply angle x Pi)
+	// Divide by 180
+// Find Cosine of angle
+// Multiply Two x (sideA) x (sideB) x cos(angle)
+// Save as double cosine
+
+// ((sideA x sideA) + (sideB x sideB)) - cosine
+// Save as double sideC
+
+// Square root sideC
+// return sideC

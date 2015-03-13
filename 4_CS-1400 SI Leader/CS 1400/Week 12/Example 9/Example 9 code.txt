@@ -1,0 +1,86 @@
+// File Prologue
+// Name: debryro
+// CS 1400 Section xxx
+// Project: Demonstration Code
+// Date: October 2009
+// 
+// Demonstrate the following programs using arrays
+// and methods
+// 1 - sum the contents of an array
+// 2 - see if an array contains a number
+// 3 - print the contents of an array of ints
+// 4 - print the contents of an array of strings  ** overload the method
+// 5 - see if two arrays are identical
+// 6 - out of bounds error
+// 7 - array assignment
+// 8 use foreach
+
+using System;
+
+class Program
+{
+    const int SIZE = 4;
+    static void Main()
+    {
+        // declare an array of integers
+        // remember that an array is an object
+        int[] a1 = new int[SIZE];
+
+       // define an array of strings using an initializer list
+        string[] days = { "Monday", "Tuesday", "Wednesday" };
+
+        // fill an array with user input
+        for (int i = 0; i < a1.Length; i++)
+        {
+            Console.Write("Enter a value: ");
+            a1[i] = int.Parse(Console.ReadLine());
+        }
+
+        // print the array of strings
+        PrintArray(days);
+
+        // print the array of integers
+        PrintArray(a1);
+
+        // split an array of strings into tokens
+        char[] splitters = { '@', '.' };
+        string names = "debryro@uvu.edu";
+        string[] tNames = names.Split(splitters);
+        PrintArray(tNames);
+
+        // two dimensional array
+        int[,] twoD = new int[SIZE, SIZE];
+        twoD[0, 0] = 5;
+        twoD[1, 1] = 12;
+        Console.WriteLine(twoD[1, 1]);
+        PrintArray(twoD);
+
+
+        Console.ReadLine();
+    }//End Main()
+
+    // here are method that will process the data in the array
+    // notice how the PrintArray method is overloaded
+    static void PrintArray(int[,] arrayOne)
+    {
+        foreach (int n in arrayOne)  // prints 2-d in row major order
+        {
+            Console.WriteLine(n);
+        }
+    }
+
+    static void PrintArray(int[] arrayOne)
+    {
+        foreach (int n in arrayOne)  // prints a single dimension array of ints
+        {
+            Console.WriteLine(n);
+        }
+    }
+
+    // prints ana rray of strings
+    static void PrintArray(string[] arrayOne)
+    {
+        for (int i = 0; i < arrayOne.Length; i++)
+            Console.WriteLine(arrayOne[i]);
+    }
+}//End class Program

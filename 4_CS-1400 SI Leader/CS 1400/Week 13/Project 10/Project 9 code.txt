@@ -1,0 +1,93 @@
+Since Project 10 builds on Project 9 and since many of you have had trouble with Project 9  have included below a solution for project 9.  This version of console project 9 does not use objects and classes, but it has some very interesting constructs you will appreciate. It was written by a UVU CS graduate Keven Lawance.  I have provided comments to explain these.  Here is the code.  
+
+_______________
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ExampleForCS1400
+
+// This code was written by Kevin Lawance a graduate of the UVU CS program
+// It does not use objects but illistares some cool C# features
+{
+class Program
+{
+const int MAX_SIZE = 10;
+static void Main(string[] args)
+{
+string[] names = new string[MAX_SIZE];
+int[] scores = new int[MAX_SIZE];
+int indexofmin = 0;
+int indexofmax = 0;
+double sum = 0;
+double average = 0;
+Console.WriteLine("Saturday Coder's Bowling Team");
+Console.WriteLine("Enter in a name and score for each person on your team.");
+Console.WriteLine("For example, \" Mary 143 \". Just hit Enter when you are done.");
+// by defining i outside of the for loop it is not local to the loop but has value after exiting the loop
+int i = 0;
+for (; i < MAX_SIZE; i++)
+{
+int score = 0;
+string name = "";
+Console.Write("Enter in a name and a score: ");
+// Getinput is a boolean method that returns true if a name and score are entered
+// It also retuns a name and score using the out key word which is like return by ref
+if (!GetInput(out name, out score))
+{
+Console.WriteLine("-------------- Input Complete --------------");
+break;
+}
+scores[i] = score;
+names[i] = name;
+sum += score;
+// This construct is called a "Truple" 
+// in front of the ? is a boolean expression 
+// if it is true the first value is used in the assignment 
+// if false the second value is used in the assignmnet
+indexofmax = (scores[indexofmax] < score ? i : indexofmax);
+indexofmin = (scores[indexofmin] > score ? i : indexofmin);
+}
+// Here i is used outside of the for loop since it was defined outside of the loop
+average = sum / i;
+Console.WriteLine("Here are the scores for this game");
+// Here we pass arrays to the method Print Scores
+PrintScores(names, scores, i);
+Console.WriteLine("Congratulations {0}, your score of {1} was the highest", names[indexofmax], scores[indexofmax]);
+Console.WriteLine("{0} , your score of {1} was the lowest, better get some practice.", names[indexofmin], scores[indexofmin]);
+Console.WriteLine("\nThe team average for this game was {0:f2}", average);
+Console.WriteLine("Press any key to continue...");
+Console.ReadKey();
+}
+
+static void PrintScores(string[] names, int[] scores, int count)
+{
+for (int i = 0; i < count; i++)
+{
+Console.Write("{0} \t {1}", names[i], scores[i]);
+if (scores[i] == 300)
+Console.WriteLine("*");
+else
+Console.WriteLine("");
+}
+}
+
+static bool GetInput(out string name, out int score)
+{
+name = "";
+score = 0;
+string input = Console.ReadLine();
+if (input == string.Empty)
+return false;
+string[] vals = input.Split(' ');
+name = vals[0];
+score = int.Parse(vals[1]);
+return true;
+}
+
+}
+}

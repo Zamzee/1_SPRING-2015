@@ -1,0 +1,40 @@
+Dear Students,
+
+Exam two will consist of 25 multiple choice questions worth 2 point each and 10 short answer questions worth 5 points each.
+
+The multiple choice questions will include the following:
+
+four questions on the style guide
+
+three questions on program design
+
+nine questions on Object Oriented Deign, Classes, Objects and Methods
+
+nine questions on decisions and loops: four on decisions and five on loops
+
+The short answer part starts with three decision questions and a question about syntax for a while loop
+
+Next there is a  question asking you to build a UML diagram from some specification.
+
+Next is a question reminiscent of exam giving a code fragment and asking if particular variables are local or global and where they are stored.  
+
+He then gives a UML diagram and asks you to design a constructor, a getter, a calculator, and finally a main method that creates an object based on the class, and calls the various member methods.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Stephanie, and all students,
+
+As Stephanie points out the test that starts on Thursday includes questions on the topic of loops which is not scheduled to be studied until next week. There are five questions about loops in the exam in the multiple choice part of the exam. I tried to postpone the exam, but that is not possible at this time.
+
+Here are some suggestions to limit your study.
+Understand of the loop types: do - while; while; and for : what each is used for: Ie
+do - while always passes through the loop at least one.
+for - you set up an exact number of passes through the loop in advance
+while - may never pass through the loop
+
+The loop questions are all in the multiple choice section, so when I get the scores I may make an adjustment for the looping questions. 
+
+Please do your best.
+
+Sincerely,
+
+Dr Stanley

@@ -1,0 +1,50 @@
+ SalesInvoice  UML Diagram
+----------------------------------------------------
+
+- numItems: int
+- unitPrice: double
+
+-----------------------------------------------------
++ GetnumItems (): double
++ SetnumItems (double): void
++ GetunitPrice (): double
++ SetunitPrice (double): void
++ Calc NetPrice (): double
++ Calc StateTax (): double
++ Calc LocalTax (): double
++ Calc TotalPay (): double
++ Reset (): void
+---------------------------------------------------
+
+Class SalesInvoice Pseudo-Code
+
+// declare constants and member data
+
+// initialize member data in a default constructor method
+
+// Get the number of items
+
+// Get the price of each item
+
+// Set the number of items
+
+// Set the price of each item
+
+// Calculate the net price before tax
+	// number of items * price
+// Calculate the State Tax
+	// net price * state tax rate
+
+// Calculate Local Tax
+	// net price * local tax rate
+
+// Calculate Total Pay amount
+	// net price + state tax + local tax
+
+// Reset
+
+
+
+
+-----------------------------------------------------------------------------------------
+Form

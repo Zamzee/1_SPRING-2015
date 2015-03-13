@@ -1,0 +1,15 @@
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\bin\Debug\Lab_04_RCA_V1.0.exe.config
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\bin\Debug\Lab_04_RCA_V1.0.exe
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\bin\Debug\Lab_04_RCA_V1.0.pdb
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.csprojResolveAssemblyReference.cache
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1._0.Form1.resources
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1._0.Properties.Resources.resources
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.csproj.GenerateResource.Cache
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.exe
+c:\users\10690073\documents\visual studio 2012\Projects\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.pdb
+C:\Users\10690073\Desktop\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\bin\Debug\Lab_04_RCA_V1.0.exe.config
+C:\Users\10690073\Desktop\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.exe
+C:\Users\10690073\Desktop\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.pdb
+C:\Users\Russell\Desktop\CS 1400\Week 3\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\bin\Debug\Lab_04_RCA_V1.0.exe.config
+C:\Users\Russell\Desktop\CS 1400\Week 3\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.exe
+C:\Users\Russell\Desktop\CS 1400\Week 3\Lab_04_RCA_V1.0\Lab_04_RCA_V1.0\obj\Debug\Lab_04_RCA_V1.0.pdb

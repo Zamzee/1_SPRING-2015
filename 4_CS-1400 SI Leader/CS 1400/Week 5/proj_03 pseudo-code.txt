@@ -1,0 +1,50 @@
+
+
+Textbox Old Departure Time	 "txtBox_Old_Depart"
+
+Textbox Old Arrival Time	 "txtBox_Old_Arrive"
+
+Textbox Display New Arrival Time "txtBox_New_Arrive"
+
+Button to Calculate New Arrival time from the Old Departure and Arrival Time inputs  "btn_Calculate_New_Arrive"
+
+Menu Strip with an About and Exit menu item.
+
+Use military hour format hhmm
+
+------------------------------------------
+
+
+// Get user input from txtBox_Old_Depart
+// Save user input as int OldDepartTime
+int oldDepartTime = int.Parse(TxtBoxOld_Depart.Text);
+
+// Get user input from txtBox_Old_Arrive
+// Save user input as int OldArriveTime
+int oldArriveTime = int.Parse(TxtBoxOld_Arrive.Text);
+
+// Event for the "btn_Calculate_New_Arrive" button press
+// Use the Run() Method
+
+//Run() Method
+
+const int HUN_PART = 100;
+const int MIN_PER_HOUR = 60;
+const int EXTRA_TIME = 25
+const int PER_CENT = 100
+
+
+int oldDepartHours = oldDepartTime / HUN_PART;
+int oldDepartMins = oldDepartTime % HUN_PART;
+int oldDepartTime = oldDepartMins + (oldDepartHours * MIN_PER_HOUR);
+
+int oldArriveHours = oldArriveTime / HUN_PART;
+int oldArriveMins = oldArriveTime % HUN_PART;
+int oldArriveTime = oldArriveMins + (oldDepartHours * MIN_PER_HOUR);
+
+int travelTime = ((oldArriveTime - oldDepartTime) * EXTRA_TIME)/ PER_CENT));
+int newArriveHours = travelTime / 60:
+int newArriveMins = travelTime % 60;
+int newArriveTime = ((newArriveHours * PER_CENT + newArriveMins) To.String();
+
+Console.WriteLine("The new arrival time is {0:d4}", newArriveTime);

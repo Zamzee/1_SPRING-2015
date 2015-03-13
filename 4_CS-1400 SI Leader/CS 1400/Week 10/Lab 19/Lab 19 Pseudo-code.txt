@@ -1,0 +1,26 @@
+// 1. Create a random number generator
+
+// 2. Ask the user if they want to roll the dice
+
+// 3. Get the user's response as either 'y' or 'n'
+
+// 4.  If user's response is not 'y' or 'n'
+	// 5. Display an error message
+	// 6. Go back to step 2
+
+// 7. If the user responds with a 'y'
+	// 8. Generate two random numbers in the range 1-6
+	// 9. Save as int d1
+	// 10. Save as int d2
+	// 11. If  d1 and d2 are both sixes
+		// 12. Display message "You rolled boxcars"
+	// 13. If d1 and d2 are both ones
+		// Display message "You rolled snake-eyes"
+	// 15. Else
+		// 16. Display "You rolled (d1) and (d2)"
+	// 17. Return to step 2
+
+// 18. If the user responds with a 'n'
+	// 19. Display message "Goodbye"
+	// 20. Exit program
+		

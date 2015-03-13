@@ -1,0 +1,4 @@
+double value = 123.45;
+int dollars = (int)value;
+int cents = (int)((value - dollars) * 100);
+String result = String.Format("{0:#0} Lt {1:00} ct", dollars, cents);

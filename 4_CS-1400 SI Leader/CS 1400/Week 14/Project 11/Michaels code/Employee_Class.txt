@@ -1,0 +1,116 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace Proj_11_MD_V1._0
+{
+    class EmployeeClass
+    {
+        const double REGULAR_HOURS = 40;
+        const double OVERTIME = 1.5;
+        const double FEDERAL_TAX = 0.20;
+        const double STATE_TAX = 0.075;
+        double totalPay = 0;
+        double taxAmount = 0;
+
+        int employeeNumber;
+        string name;
+        string streetAddress;
+        double hourlyWage;
+        double hoursworkedWeekly;
+
+
+        public void setEmployeenumber(int iEmployeenumber)
+        {
+            employeeNumber = iEmployeenumber;
+        }
+
+        public void setName(string iName)
+        {
+            name = iName;
+        }
+
+        public void setstreetaddress(string iStreetaddress)
+        {
+            streetAddress = iStreetaddress;
+        }
+
+        public void setHourlyWage(double iHourlywage)
+        {
+            hourlyWage = iHourlywage;
+        }
+
+        public void setHoursworkedweekly(double iHoursworkedweekly)
+        {
+            hoursworkedWeekly = iHoursworkedweekly;
+        }
+
+        public int getEmployeenumber()
+        {
+            return employeeNumber;
+        }
+
+        public string getName()
+        {
+            return name;
+        }
+
+        public string getStreeaddress()
+        {
+            return streetAddress;
+        }
+
+        public double getHourlywage()
+        {
+            return hourlyWage;
+        }
+
+        public double getHoursworkedweekly()
+        {
+            return hoursworkedWeekly;
+        }
+
+        public double CalcPay()
+        {
+
+            if (hoursworkedWeekly > REGULAR_HOURS)
+            {
+                double timeHalf = hoursworkedWeekly - REGULAR_HOURS;
+                timeHalf = timeHalf * (OVERTIME * hourlyWage);
+                totalPay = timeHalf + (REGULAR_HOURS * hourlyWage);
+            }
+
+            else
+            {
+                totalPay = hourlyWage * hoursworkedWeekly;
+            }
+
+            taxAmount = totalPay * (FEDERAL_TAX + STATE_TAX);
+            totalPay = totalPay - taxAmount;
+
+            return totalPay;
+        }
+
+        public bool Read(ref StreamReader reader)
+        {
+            string[] temp;
+            if(!reader.EndOfStream)
+            {
+                employeeNumber = int.Parse(reader.ReadLine());
+                name = reader.ReadLine();
+                streetAddress = reader.ReadLine();
+                temp = reader.ReadLine().Split();
+                hourlyWage = double.Parse(temp[0]);
+                hoursworkedWeekly = double.Parse(temp[1]);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+}

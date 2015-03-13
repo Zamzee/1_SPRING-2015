@@ -1,0 +1,2 @@
+c:\users\russell\documents\visual studio 2012\Projects\Lab_19_RCA_V1.0\Lab_19_RCA_V1.0\bin\Debug\Lab_19_RCA_V1.0.exe.config
+C:\Users\Russell\Desktop\School\3_Summer 2014\CS 1400\Week 10\Lab 19\Lab_19_RCA_V1.0\Lab_19_RCA_V1.0\bin\Debug\Lab_19_RCA_V1.0.exe.config

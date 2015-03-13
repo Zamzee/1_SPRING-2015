@@ -1,0 +1,41 @@
+  double side1 = 0;
+            double side2 = 0;
+            double hypotenuse = CalcHypotenuse (side1, side2);
+            // Ask the user to enter the length of one side of a triangle
+            Console.WriteLine( "Enter the length of one side of the triangle.");
+
+            // Get the user's input and save it as a double 'side1'
+            side1 = double.Parse(Console.ReadLine());
+
+            // Ask the user to enter the length of the other side of the triangle
+            Console.WriteLine( "Enter the length of the other side of the triangle.");
+
+            // Get the user's input and save it as a double 'side2'
+            side2 = double.Parse(Console.ReadLine());
+
+            // Call the CalcHypotenuse method and pass in the lengths of the two sides of the triangle as parameters
+
+            // Save the value returned as a double 'hypotenuse'
+
+            // Display return value in the console
+            Console.WriteLine("The length of the hypotenuse is (hypotenuse).");
+        }
+         // The Find the Hypotenuse Method
+        // Purpose: To find the hypotenuse of a triangle
+        // Parameters: Side A and Side B as doubles
+        // Returns: The length of Side C as a double
+
+        static double CalcHypotenuse (double side1, double side2)
+        {
+            // Square side1
+            side1 = side1 * side1; 
+
+            // Square side2
+            side2 = side2 * side2;
+
+            // Add side1 and side2
+            // Save as hypotenuse
+            side2 = side1 + side2;
+
+            // Square root hypotenuse
+            side2 = Math.Sqrt(side2);

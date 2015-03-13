@@ -1,0 +1,44 @@
+// File Prologue
+// Name: Roger deBry
+// CS 1400 
+// Demo: Getting the Path to My Documents and reading some data
+// Date: December 2013
+// 
+// I declare that the following code was written by me or provided 
+// by the instructor for this project. I understand that copying source
+// code from any other source constitutes cheating, and that I will receive
+// a zero on this project if I am found in violation of this policy.
+// ---------------------------------------------------------------------------
+
+using System;
+using System.IO;
+
+class Program
+{
+    static void Main()
+    {
+
+        // This line of code gets the current path to the user's My Documents Folder
+        string environment = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal) + "\\";
+        Console.WriteLine(environment);  // display it for fun
+        Console.WriteLine("Enter a file name in My Documents: ");
+        string input = Console.ReadLine();
+
+        // concatenate the path to the file name
+        string path = environment + input;
+
+        // now we can use the full path to get the document
+        StreamReader myFile = new StreamReader(path);
+
+        // read two values from the file and add them together
+        int n1 = int.Parse(myFile.ReadLine());
+        int n2 = int.Parse(myFile.ReadLine());
+        int sum = n1 + n2;
+
+        // Output the results
+        Console.WriteLine("Read the values {0:d} and {1:d} from the file.", n1, n2);
+        Console.WriteLine("The sum of these values is {0:d}", sum);
+
+        Console.ReadLine();
+    }//End Main()
+}//End class Program
