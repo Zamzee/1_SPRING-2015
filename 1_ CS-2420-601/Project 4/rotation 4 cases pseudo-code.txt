@@ -1,0 +1,61 @@
+
+void performRotation(node* r)
+{
+
+=============================================================================
+//LL Case
+//=======
+// If r->balanceFactor == +2; // Tree is Left-Heavy
+
+	// If r->lChild->balanceFactor >= 0;
+
+		// (Left Child) becomes (Parent)
+
+		// (Parent) becomes (Left Child's Right Child)
+
+		// (Left Child's Right Child) becomes (Parent's Left Child)
+
+=============================================================================
+LR Case
+=======
+	else
+		// (Left Child) becomes (Left Child's Right Child's Left Child)
+
+		// (Parent) becomes (Left Child's Right Child's Right Child)
+
+		// (Left Child's Right Child's Right Child) becomes (Parent's Left Child)
+
+		// (Left Child's Right Child's Left Child) becomes (Left Child's Right Child)
+		
+
+=============================================================================
+
+// If r->balanceFactor == -2; // Tree is Right-Heavy
+
+RR Case
+=======
+	// If r->rChild->balance->Factor <= 0;
+	
+		// (Right Child becomes (Parent)
+
+		// (Parent) becomes (Right Child's Left Child)
+
+		// (Right Child's Left Child) becomes (Parent's Right Child)
+
+==============================================================================
+
+RL Case
+=======
+	else
+		// (Right Child) becomes (Right Child's Left Child's Right Child)
+
+		// (Parent) becomes (Right Child's Left Child's Left Child)
+
+		// (Right Child's Left Child's Left Child) becomes (Parent's Right Child)
+
+		// (Right Child's Left Child's Right Child) becomes (Right Child's Left Child)
+
+===============================================================================
+
+
+

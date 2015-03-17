@@ -109,7 +109,7 @@ void Tree::insert(int num) 			//Insert into an ordered list
 		Node *p, *q;
 		p = root;
 		q = NULL;
-		while (p != NULL && p->entry != num)
+		while (p != NULL && p->entry != num) // checks for duplicates
 		{
 			q = p;
 			if (num < p->entry)

@@ -1,0 +1,13 @@
+void Tree::insert (int num)
+
+// Determine If the Tree is empty
+
+// If empty, new Node is root
+	
+// If not empty
+	// create two Node pointers p, q
+	// assign p to root
+	// assign q to null
+	
+
+
