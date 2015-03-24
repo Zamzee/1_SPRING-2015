@@ -47,7 +47,7 @@ void AVLTree::insert(int num)
 		}
 		if (p != nullptr && p->dataNum == num)
 		{
-			cout << "Duplicate Data->";
+			cout << "Duplicate Data-> ";
 		}
 			else
 			{
@@ -143,6 +143,8 @@ void AVLTree::performRotation(Node* r)
 			// (Left Child's Right Child) becomes (Parent's Left Child)
 			p->lChild = r;
 
+			// Calculate Balance Factor using Inorder traversal
+
 		}
 
 		else
@@ -155,6 +157,8 @@ void AVLTree::performRotation(Node* r)
 			// (Left Child's Right Child's Right Child) becomes (Parent's Left Child)
 
 			// (Left Child's Right Child's Left Child) becomes (Left Child's Right Child)
+
+			// Calculate Balance Factor using Inorder traversal
 		}
 	}
 
@@ -168,6 +172,8 @@ void AVLTree::performRotation(Node* r)
 			// (Parent) becomes (Right Child's Left Child)
 
 			// (Right Child's Left Child) becomes (Parent's Right Child)
+
+			// Calculate Balance Factor using Inorder traversal
 		}
 		else
 		// LR Case
@@ -179,6 +185,8 @@ void AVLTree::performRotation(Node* r)
 			// (Right Child's Left Child's Left Child) becomes (Parent's Right Child)
 
 			// (Right Child's Left Child's Right Child) becomes (Right Child's Left Child)
+
+			// Calculate Balance Factor using Inorder traversal
 		}
 	}
 

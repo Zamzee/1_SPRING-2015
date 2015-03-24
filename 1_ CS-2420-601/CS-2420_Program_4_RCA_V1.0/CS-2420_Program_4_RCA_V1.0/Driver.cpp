@@ -55,13 +55,14 @@ int main()
 		inputFile >> data;
 		testTree.insert(data);
 		testTree.balFactor(testTree.getRoot());
-		cout << data << " ";
+		cout << data << " " << "\n";
 	}
 
 	// Close file
 	inputFile.close();
 
-	cout << endl;
+	cout << "\n" << endl;
+
 
 	// Testing proper balancing factor, regular traverse and height function calculations
 	//testTree.balFactor(testTree.getRoot());
