@@ -1,0 +1,150 @@
+
+///////////////////////////////////////
+SINGLE LIST .cpp
+///////////////////////////////////////
+
+
+void SingleList::insert(int inputNum)
+{
+	Node* p = nullptr;
+	Node* q = new Node(inputNum);
+
+	if (head == nullptr)
+	{
+		head = q;
+		head->rhLink = nullptr;
+	}
+
+	else
+	{
+		p = head;
+		while (p->rhLink != nullptr)
+		{
+			p = p->rhLink;
+			//cout << count;
+		}
+		p->rhLink = q;
+		q->rhLink = nullptr;
+
+	}
+	// Increment count by one for the new Node
+	count++;
+}
+
+/////////////////////////////////////////////////////
+
+void SingleList::traverse()
+{
+	if (head == nullptr)
+		cout << "The list is empty";
+	else
+	{
+		Node* p;
+		p = head;
+		while (p != nullptr)
+		{
+			p = p->rhLink;
+		}
+	}
+}
+
+/////////////////////////////////////////////////////
+
+void SingleList::traversePrint(void(*visit)(Node* p))
+{
+	Node* p;
+	p = head;
+
+	while (p != nullptr)
+	{
+		(*visit)(p);
+		p = p->rhLink;
+	}
+}
+
+/////////////////////////////////////////////////////
+DRIVER
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+
+int main()
+{
+	int tempInt = 0;
+	string textFileName;
+	SingleList singleListA;
+	ifstream idataFile;
+	// DoubleLink* dL = new DoubleLink;
+
+	// Print Name, Class, Section Number, Program Number
+	cout << "Russell Andlauer\nCS-2420-601\nProgram 2: Linked Lists" << endl;
+	///////////////////////////////////////////////////////////////////////////////////////////////////
+
+	// Prompt user for the filename (Handle Exception for improper opening)
+	cout << "\nPlease enter the name of the file to read the integers from..." << endl;
+
+	cin >> textFileName;
+
+	// If user types 'exit', close program.
+
+	idataFile.open(textFileName);
+
+	// Open the file
+	if (idataFile.fail())
+		cout << "couldn't open file." << endl;
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Fixing the idataFile check
+	// If user enters an invalid file name, Prompt user to enter the correct file name
+	//while (!idataFile.is_open())  //fileName.c_str() == "exit"
+	//{
+	//	cout << "\nFile did not open, incorrect file name.\nPlease enter the name of the file you want to open (without .txt). ";
+	//	cout << "\n\tor\nEnter 'exit' to close program." << endl;
+	//	cin >> textFileName;
+
+	//if (textFileName == "exit") // If user types 'exit', close program.
+	//{
+	//	exit(1);
+	//}
+	//else // If user enters correct file name, open textFileName
+	//idataFile.open(textFileName);
+	//}
+	/////////////////////////////////////////////////////////////////////////////////////////////
+	// Check for end of file
+	//while (!(idataFile.eof()))
+	//{	
+	while (idataFile >> tempInt)
+	{
+		// Read an integer from the file
+		// Insert the integer into a new node and add it at the end of a single linked list
+		singleListA.insert(tempInt);
+		//cout << "insert call";
+	}
+
+	// Repeat previous step until end of file is reached
+	cout << "skipped insert call";
+	// Traverse the single linked list bode by node for each node in the list
+
+	// Insert the integer from each node in the single linked list into the double linked list in ascending order
+
+	// Print each integer from the single linked list using the traverse function, passing the print function as a parameter
+
+	// Print each integer from the double linked list using the traverse function, passing the print function as a parameter
+
+	//}
+
+	//	cout << "\nSingle List:";
+	//	singleList.traversePrint(print);
+	//	cout << endl;
+
+	system("pause");
+	return 0;
+}
+
+void print(Node* p)
+{
+	cout << "\n" << p->dataNum;
+}
+
+
+
