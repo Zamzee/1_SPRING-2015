@@ -1,0 +1,101 @@
+2015-03-25 13:21:30.3906|INFO|thread:13|SoftwareUpdateViewModel|Checking for new version
+2015-03-25 13:21:20.1210|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4\GitHub.exe
+2015-03-25 13:21:20.1320|INFO|thread: 1|AppInstanceCommunicator|Starting up as master instance of GitHub for Windows
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| #########################################
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| GitHub for Windows started. VERSION: 2.12.0.2
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| Build version: eab98e48e972fba682af096113fa05e23a5c998a
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***************************************
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***        Have a problem?          ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***    Email support@github.com     ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***      and include this file      ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***                                 ***
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ***************************************
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| OS Version: Windows 7 Service Pack 1 6.1.7601.65536 amd64
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| CLR Version: 4.0.30319.34209
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| Current culture: en-US
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| Terminal Services session: no
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| Location: C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4\GitHub.exe
+2015-03-25 13:21:20.1600|INFO|thread: 4|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2015-03-25 13:21:20.1840|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: 1868:/tmp/ssh-usXWzq9nT3e0/agent.6620
+2015-03-25 13:21:20.1840|INFO|thread: 4|GitEnvironment|PATH is C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4;C:\Users\Russell\AppData\Local\GitHub\hawser-amd64_0.4.2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Common Files\Teleca Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\Game1X\DLLShared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;c:\Users\Russell\AppData\Local\atom\bin;C:\Users\Russell\AppData\Local\atom\bin
+2015-03-25 13:21:20.1840|INFO|thread: 4|StartupLogging| =====================================================
+2015-03-25 13:21:20.1840|INFO|thread: 4|StartupLogging|  DIAGNOSTICS                                        |
+2015-03-25 13:21:20.1840|INFO|thread: 4|StartupLogging| =====================================================
+2015-03-25 13:21:20.1880|INFO|thread: 4|StartupLogging| Git Extracted: 'True:
+2015-03-25 13:21:20.1880|INFO|thread: 4|StartupLogging| PortableGit Dir Exists: 'C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad'
+2015-03-25 13:21:20.1880|INFO|thread: 4|StartupLogging| Git Executable Exists: 'C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe'
+2015-03-25 13:21:20.1880|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2015-03-25 13:21:20.1880|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2015-03-25 13:21:20.1880|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Program Files (x86)\AMD APP\bin\x86'
+2015-03-25 13:21:20.1880|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\'
+2015-03-25 13:21:20.1880|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Program Files (x86)\Common Files\Roxio Shared\Game1X\DLLShared\'
+2015-03-25 13:21:20.1880|INFO|thread: 4|StartupLogging| ----------------------------------------------------
+2015-03-25 13:21:20.1880|INFO|thread: 4|StartupLogging| PATH: C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Common Files\Teleca Shared;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\Game1X\DLLShared\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;c:\Users\Russell\AppData\Local\atom\bin;C:\Users\Russell\AppData\Local\atom\bin
+2015-03-25 13:21:20.2240|INFO|thread: 4|StartupLogger|Proxy information: (None)
+2015-03-25 13:21:20.2240|INFO|thread: 4|StartupLogger|Couldn't fetch creds for proxy
+2015-03-25 13:21:20.3411|INFO|thread: 1|App|Checking whether application is network deployed.
+2015-03-25 13:21:20.3731|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4\Images\App.ico'
+2015-03-25 13:21:20.6301|INFO|thread: 4|PortablePackageManager|Already extracted PortableGit.7z, returning 100%
+2015-03-25 13:21:20.6881|INFO|thread: 4|MsysGitCertificateInstaller|Found certificate cache, loaded 162 certificates
+2015-03-25 13:21:20.6881|INFO|thread: 4|MsysGitCertificateInstaller|Created certificate bundle with 190 entries
+2015-03-25 13:21:21.5311|INFO|thread: 1|CommandLineToolsExtractor|Portable Git and GitMedia are already extracted
+2015-03-25 13:21:21.5311|INFO|thread: 1|GitClient|Installing git media filters
+2015-03-25 13:21:21.5581|INFO|thread: 1|GitEnvironment|Process set up with this SSH Agent info: 1868:/tmp/ssh-usXWzq9nT3e0/agent.6620
+2015-03-25 13:21:21.5581|INFO|thread: 1|GitEnvironment|PATH is C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4;C:\Users\Russell\AppData\Local\GitHub\hawser-amd64_0.4.2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-03-25 13:21:21.5671|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'hawser init ', Working Directory: C:\Users\Russell\AppData\Local\Temp\
+2015-03-25 13:21:21.5671|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2015-03-25 13:21:21.5671|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2015-03-25 13:21:22.1172|INFO|thread: 1|PortablePackageManager|Already extracted gitignore.7z, returning 100%
+2015-03-25 13:21:23.0582|INFO|thread:10|AsyncReaderWriterLock|Acquiring concurrent lock for operation 1: 'GetRecentBranchNames' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:23.0582|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent lock for operation 1: 'GetRecentBranchNames' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:23.0772|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 1868:/tmp/ssh-usXWzq9nT3e0/agent.6620
+2015-03-25 13:21:23.0772|INFO|thread:17|GitEnvironment|PATH is C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4;C:\Users\Russell\AppData\Local\GitHub\hawser-amd64_0.4.2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-03-25 13:21:23.0772|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'log -g --abbrev-commit --pretty=oneline HEAD -n 2500 ', Working Directory: C:\Users\Russell\Documents\GitHub\1_SPRING-2015\
+2015-03-25 13:21:23.1202|INFO|thread:15|AsyncReaderWriterLock|Released concurrent lock for operation 1: 'GetRecentBranchNames' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:23.3222|INFO|thread:14|GitClient|Loading commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015
+2015-03-25 13:21:23.3372|INFO|thread:14|RepositoryConnection|Loaded '5' commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.
+2015-03-25 13:21:23.5722|INFO|thread: 1|RepositoryViewModel|Refreshing all information for repo
+2015-03-25 13:21:23.5802|INFO|thread: 5|RepositoryConnection|Loaded '0' commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.
+2015-03-25 13:21:23.5802|INFO|thread:15|AsyncReaderWriterLock|Acquiring concurrent lock for operation 2: 'LoadHeadForRepo' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:23.5802|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent lock for operation 2: 'LoadHeadForRepo' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:23.6132|INFO|thread:17|AsyncReaderWriterLock|Released concurrent lock for operation 2: 'LoadHeadForRepo' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.1943|INFO|thread:15|AsyncReaderWriterLock|Acquiring concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.1943|INFO|thread: 5|AsyncReaderWriterLock|Acquired concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.2053|INFO|thread:22|GitClient|Loading commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015
+2015-03-25 13:21:24.2053|INFO|thread:17|GitEnvironment|Process set up with this SSH Agent info: 1868:/tmp/ssh-usXWzq9nT3e0/agent.6620
+2015-03-25 13:21:24.2053|INFO|thread:17|GitEnvironment|PATH is C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4;C:\Users\Russell\AppData\Local\GitHub\hawser-amd64_0.4.2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-03-25 13:21:24.2053|INFO|thread:17|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\git.exe', Args: 'status --untracked-files=all --porcelain -z ', Working Directory: C:\Users\Russell\Documents\GitHub\1_SPRING-2015\
+2015-03-25 13:21:24.2223|INFO|thread:22|RepositoryConnection|Loaded '0' commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.
+2015-03-25 13:21:24.2223|INFO|thread:22|AsyncReaderWriterLock|Acquiring concurrent lock for operation 4: 'MergeStatus' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.2223|INFO|thread:22|AsyncReaderWriterLock|Acquired concurrent lock for operation 4: 'MergeStatus' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.3733|INFO|thread: 4|AsyncReaderWriterLock|Acquiring concurrent lock for operation 5: 'GetBranch' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.3733|INFO|thread: 4|AsyncReaderWriterLock|Acquired concurrent lock for operation 5: 'GetBranch' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.3843|INFO|thread:15|AsyncReaderWriterLock|Released concurrent lock for operation 3: 'LoadFilesInWorkingDirectory' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.3843|INFO|thread:14|GitClient|Loading commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015
+2015-03-25 13:21:24.3843|INFO|thread: 5|AsyncReaderWriterLock|Acquiring concurrent lock for operation 6: 'GetUniqueCommits' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.3843|INFO|thread:14|RepositoryConnection|Loaded '25' commits for repo: C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.
+2015-03-25 13:21:24.3843|INFO|thread:15|AsyncReaderWriterLock|Acquired concurrent lock for operation 6: 'GetUniqueCommits' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.3843|INFO|thread:23|AsyncReaderWriterLock|Released concurrent lock for operation 4: 'MergeStatus' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.4023|INFO|thread:17|AsyncReaderWriterLock|Released concurrent lock for operation 5: 'GetBranch' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.4153|INFO|thread:24|AsyncReaderWriterLock|Released concurrent lock for operation 6: 'GetUniqueCommits' on resource C:\Users\Russell\Documents\GitHub\1_SPRING-2015\.git
+2015-03-25 13:21:24.4153|WARN|thread: 1|StandardUserErrors|Showing user error You might need to open a shell and debug the state of this repo.
+System.IO.PathTooLongException: The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+   at System.IO.PathHelper.GetFullPathName()
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.IO.FileInfo.Init(String fileName, Boolean checkHost)
+   at System.IO.FileInfo..ctor(String fileName)
+   at GitHub.Models.UncommittedFile..ctor(IRepositoryModel repository, String relativeFilePath, String changeType, String oldRelativePath)
+   at GitHub.Helpers.GitExtensions.<>c__DisplayClassd.<GetFileFromStatus>b__c(Status x)
+   at System.Reactive.Linq.ObservableImpl.Select`2._.OnNext(TSource value)
+2015-03-25 13:21:25.6794|INFO|thread: 1|RepositoryHost|Log in from cache for login 'Zamzee' to host 'https://api.github.com/' SUCCEEDED
+2015-03-25 13:21:25.6794|INFO|thread:25|ApplicationShellInitializer|Running post login tasks. ~/.gitconfig is set up with user.name = 'Zamzee' and user.email = 'randlauer@gmail.com'
+2015-03-25 13:21:25.7094|INFO|thread:25|SSHKeyHelper|ssh-agent already running
+2015-03-25 13:21:25.7144|INFO|thread:25|PortablePackageManager|Already extracted hawser-amd64.7z, returning 100%
+2015-03-25 13:21:25.7144|INFO|thread:25|GitEnvironment|Process set up with this SSH Agent info: 1868:/tmp/ssh-usXWzq9nT3e0/agent.6620
+2015-03-25 13:21:25.7144|INFO|thread:25|GitEnvironment|PATH is C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Russell\AppData\Local\Apps\2.0\EK96Y4D4.3LV\Y2Y945TV.4KX\gith..tion_317444273a93ac29_0002.000c_8e56c2f0a26792d4;C:\Users\Russell\AppData\Local\GitHub\hawser-amd64_0.4.2;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Windows\System32
+2015-03-25 13:21:25.7284|INFO|thread:25|ProcessWrapper|Starting: Process - FileName: 'C:\Users\Russell\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin\ssh-add.exe', Args: '"C:\Users\Russell\.ssh\github_rsa"', Working Directory: C:\Users\Russell\AppData\Local\Temp\
+2015-03-25 13:21:25.7734|INFO|thread: 5|SSHKeyHelper|Found existing SSH key pair
