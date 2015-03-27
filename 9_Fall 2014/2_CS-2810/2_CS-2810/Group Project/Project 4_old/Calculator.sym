@@ -1,0 +1,21 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	ASCIItoBinary           3025
+//	Exit                    3021
+//	GoOpAdd                 301C
+//	GoOpMulti               301F
+//	MultiLoop               3031
+//	NegASCIIOffset          3098
+//	NegC                    309D
+//	NegMulti                309B
+//	NegN                    309C
+//	NegPlus                 309A
+//	OpAdd                   3029
+//	OpMulti                 302E
+//	PosASCIIOffset          3099
+//	answer                  3038
+//	classHeader             3039
+//	newLine                 3063
+//	promptNum               3064
+//	promptOperator          3079
+//	termination             309E

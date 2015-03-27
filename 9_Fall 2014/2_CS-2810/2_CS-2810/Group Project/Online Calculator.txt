@@ -1,0 +1,321 @@
+.ORIG x3000
+
+;; strings can be stored at the start of the program
+;; because their top 8 bits are not used.
+szMessage .STRINGZ "Lets do some 16-bit integer math!\n+ add, - subtract, * multiply, / divide, x quit\n"
+szError .STRINGZ "\nCannot divide by Zero\n"
+szSizeError .STRINGZ "\nExceeds range (-32,768 <= x <= 32,767)\n"
+
+LEA R0, szMessage
+PUTS ; greet the user
+START
+LD R0, asciicrt
+OUT ; print out a prompt of ">"
+AND R1, R1, 0 ; \
+AND R3, R3, 0 ; clean these
+AND R4, R4, 0 ; /
+
+; create the linked stack pointer
+LEA R6, linkedstack
+INLOOP
+GETC ; loop grabbing input
+
+;; enter denotes the end of input
+LD R7, nasciinl
+ADD R7, R0, R7
+BRZ CALCULATE
+
+;; type X to quit
+LD R7, nasciix
+ADD R7, R0, R7
+BRZ QUIT
+
+;; check to see if it's a digit
+LD R7, nascii9
+ADD R7, R0, R7 ; gotta be less than 9
+BRP NAN
+LD R7, nascii0
+ADD R2, R0, R7 ; and greater than 0
+BRN NAN
+;; it's a digit, so we'll echo it. It's in R2 now.
+OUT
+
+; time to tally up the number we're recording
+ADD R1, R1, 0
+BRZ SKIPSH ; lets not waste time on the first digit
+;; shift over a digit
+AND R3, R3, 0
+ADD R3, R3, 10
+AND R7, R7, 0
+SHIFT ; this loop multiplies the previous digits by 10
+ADD R7, R7, R1;
+BRN TOOLARGE ; don't let the user type in something too big to record
+ADD R3, R3, -1;
+BRP SHIFT
+ADD R1, R7, 0
+SKIPSH
+ADD R1, R1, R2 ; add the new digit to our recording number
+JSR INLOOP
+
+;-----------------------------------------------------------------
+
+NAN ;; it's not a number
+AND R3, R3, 0 ; set up R3 for the next function
+LD R7, nasciimul ; is it multiplication?
+ADD R7, R0, R7
+BRZ qMUL
+LD R7, nasciidiv ; no, division?
+ADD R7, R0, R7
+BRZ qDIV
+LD R7, nasciisub ; nope, subtraction?
+ADD R7, R0, R7
+BRZ qSUB
+LD R7, nasciiadd ; or addition?
+ADD R7, R0, R7
+BRZ qADD
+;; it's not an operation, so lets ignore it and go back to input.
+JSR INLOOP
+
+;---------------------------------------------------------------
+
+;; lets assemble an opcode based on which operation it is
+qMUL ADD R3, R3, 1
+qDIV ADD R3, R3, 1
+qSUB ADD R3, R3, 1
+qADD ADD R3, R3, 1
+OUT
+;; store it and the number in a new node on the linked stack
+STR R1, R6, 0 ; store number in slot 1
+AND R1, R1, 0 ; and clear it
+STR R3, R6, 1 ; store operator in slot 2
+ADD R6, R6, 3 ; increment the stack
+STR R6, R6, -1 ; and provide a link to it in slot 3
+;; and then back to input
+JSR INLOOP
+
+;---------------------------------------------------------------
+
+DIV ;code 3
+ADD R2, R2, 0
+BRZ DIVERROR ; cannot divide by zero
+
+AND R3, R3, 0
+ADD R3, R3, -1 ; start a counter for the quotient
+NOT R2, R2
+ADD R2, R2, 1
+DIVLOOP ADD R3, R3, 1 ; loop subtracting to divide
+ADD R1, R1, R2
+BRZP DIVLOOP
+JSR SPUSH ; signed push
+JSR MULDIV
+DIVERROR
+LEA R0, szError
+PUTS
+JSR START
+
+MUL ;code 4
+AND R3, R3, 0
+MULLOOP ADD R3, R3, R1; ; loop adding for multiplication
+BRN TOOLARGE ; don't let the product get too big to record
+ADD R2, R2, -1;
+BRNP MULLOOP
+JSR SPUSH ; signed push
+TOOLARGE
+LEA R0, szSizeError
+PUTS
+JSR START
+
+SPUSH ;; by now, R3 contains the result, and R4 is the sign switch
+ADD R4, R4, 0 ; check the signflag--
+BRZ PUSH ; if it's set
+NOT R3, R3 ; toggle the result's sign
+ADD R3, R3, 1
+
+PUSH ;; condenses the nodes in our linked stack. R5 should still contain the link
+STR R3, R6, 0 ; store the sum
+LDR R1, R5, 1 ; and lets squeeze in
+STR R1, R6, 1 ; the next opcode.
+LDR R5, R5, 2 ; R5 = R6->next->next;
+STR R5, R6, 2 ; our condensed node will use the merging node's link
+RET
+
+;------------------------------------------------------------------------
+
+LOADOPS ;; load operands for division and multiplication, and make them POSITIVE
+AND R4, R4, 0 ; R4 is the sign flag: 0 = positive, -1/+1 = negative
+LDR R1, R6, 0 ; load first operand
+BRN LDOINV ; invert it and the sign flag if it's negative
+LDR R5, R6, 2 ; get the link (keeping in !R5! for convenience)
+LDR R2, R5, 0 ; and load the second operand from it
+BRN LDOINV2 ; also invertable
+RET
+LDOINV
+ADD R4, R4, -1 ; set inverted state
+NOT R1, R1 ; invert R1
+ADD R1, R1, 1 ;/
+LDR R3, R6, 2
+LDR R2, R5, 0 ; load second operand (link in R5)
+BRN LDOINV2 ; if negative...
+RET
+LDOINV2
+ADD R4, R4, 1 ; either set or revert inverted state
+NOT R2, R2 ; and invert R2
+ADD R2, R2, 1 ;/
+RET
+
+;---------------------------------------------------------------
+
+CALCULATE ;; reads the linked stack and operates
+STR R1, R6, 0 ; add the last number to the stack
+AND R0, R0, 0 ; and plug the opcode cell in it,
+STR R0, R6, 1 ; so we know this is the end
+LEA R6, linkedstack ; back to the start of the stack
+
+MULDIV ;; level one: multiplication and division
+LDR R0, R6, 1 ; get next op
+BRZ ADDSUB ;; if the opcode is 0, we've hit the end of the list
+;; now lets load our operands and operate
+JSR LOADOPS
+ADD R0, R0, -3
+BRP MUL
+BRZ DIV
+;; lower precedence, skip it for now
+LDR R6, R6, 2 ; R6 = R6->next
+JSR MULDIV ; loop
+
+ADDSUB ;; handles addition and subtraction operations in the stack
+LEA R6, linkedstack ; back to the top of the stack
+ASLOOP
+LDR R0, R6, 1 ; get next operation
+BRZ PRINT
+
+;; simple load operands, no sign switch
+LDR R1, R6, 0 ; load first operand
+LDR R5, R6, 2 ; get the link (keeping in !R5! as usual for convenience)
+LDR R2, R5, 0 ; and load the second operand from it
+
+;; check the opcode
+ADD R0, R0, -1
+BRZ ADDS
+;; if we're not adding we're subtracting, so make the second operand negative
+NOT R2, R2
+ADD R2, R2, 1
+ADDS ; and then add as usual
+ADD R3, R1, R2
+JSR SIGNMUX ; make sure it's a valid sum
+JSR PUSH
+JSR ASLOOP
+
+;; the sum has passed the bounds if both operands have the same sign
+;; and the sum has a different sign
+SIGNMUX
+ADD R1, R1, 0 ; check the first operand
+BRN SMNEG
+ADD R2, R2, 0 ; check the second operand
+BRN CONDRET ; if it's not the same sign, the sum can't be invalid
+ADD R3, R3, 0 ; check the sum
+BRN TOOLARGE ; if +R1, +R2, and -R3, the sum is invalid
+RET
+
+SMNEG ADD R2, R2, 0 ; check second operand
+BRZP CONDRET
+ADD R3, R3, 0 ; and check the sum
+BRZP TOOLARGE ; if -R1, -R2, and +R3, the sum is invalid
+RET
+
+PRINT
+LD R0, asciieq ; print equals sign
+OUT
+LEA R0, buffer ; R0 is where we'll store the string
+AND R4, R4, 0 ; leading zeroes switch, 0 if no digits recorded
+
+LDR R1, R6, 0 ; R1 - number
+BRZP POSITIVE
+LD R2, asciimin ; stick on a '-' for negatives
+STR R2, R0, 0
+ADD R0, R0, 1
+NOT R1, R1 ; and make em positive
+ADD R1, R1, 1
+POSITIVE
+ADD R1, R1, 1 ; add 1 for no reason
+LD R3, ntenthou ; R3 - place subtractor
+JSR TESTDIGIT
+
+LD R3, nthou ; set thousands place
+JSR TESTDIGIT
+
+LD R3, nhund ; hundreds
+JSR TESTDIGIT
+
+AND R3, R3, 0
+ADD R3, R3, -10 ; tens
+JSR TESTDIGIT
+
+AND R3, R3, 0
+ADD R3, R3, -1 ; and ones
+JSR TESTDIGIT
+
+AND R1, R1, 0 ; and then plug the end of the string
+STR R1, R0, 0
+LEA R0, buffer ; back to the start of the string
+PUTS
+LD R0, asciinl
+OUT
+JSR START ; we're finished! Lets start again, yay.
+
+;-----------------------------------------------------------
+
+;; converts each decimal digit of the binary number into ascii
+TESTDIGIT
+LD R2, ascii0m1 ; R2 - counter
+
+ADD R5, R4, 0
+BRP TDLOOP ; we've got digits, so we'll record zeroes
+
+ADD R5, R1, R3 ; R5 temp
+BRN CONDRET ; no need to record this leading zero
+
+TDLOOP ADD R2, R2, 1 ; increment
+ADD R1, R1, R3
+BRP TDLOOP
+STR R2, R0, 0 ; store the digit
+NOT R3, R3 ; fix last subtraction
+ADD R3, R3, 1 ; ^
+ADD R1, R1, R3 ; ^
+ADD R0, R0, 1 ; advance the string
+ADD R4, R4, 1 ; we've recorded a digit, so zeroes can follow
+RET
+
+CONDRET ;; allows conditional BRs to return
+RET
+
+QUIT ;; jump here to end the program
+HALT
+
+; ascii codes to compare to
+nascii0 .FILL -48
+nascii9 .FILL -57
+nasciinl .FILL -10
+nasciiadd .FILL -43
+nasciisub .FILL -45
+nasciidiv .FILL -47
+nasciimul .FILL -42
+nasciix .FILL -120
+asciimin .FILL 45
+asciispace .FILL 32
+asciieq .FILL 61
+asciinl .FILL 10
+ascii0m1 .FILL 47
+asciicrt .FILL 62
+
+; decimal places for conversion
+ntenthou .FILL -10000
+nthou .FILL -1000
+nhund .FILL -100
+
+buffer .BLKW 6 ; string to store the answer
+
+linkedstack .BLKW 92 ; this stack will hold 30 operations before overflowing.
+stackend .FILL xBEEF ; puts BEEF at the end of the stack
+; ...
+.END

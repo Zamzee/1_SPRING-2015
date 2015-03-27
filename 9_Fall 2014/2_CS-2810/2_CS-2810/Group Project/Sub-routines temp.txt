@@ -1,0 +1,4 @@
+LD R0, newLine
+OUT
+AND R0, R0, #0
+ADD R0, R0, R3

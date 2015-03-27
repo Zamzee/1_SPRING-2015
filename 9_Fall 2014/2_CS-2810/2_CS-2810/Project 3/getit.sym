@@ -1,0 +1,12 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	answer                  3016
+//	classHeader             3028
+//	done                    3013
+//	five                    308E
+//	incorrect               3068
+//	newInput                3004
+//	newLine                 3052
+//	prompt                  3053
+//	stack                   3027
+//	termination             308F

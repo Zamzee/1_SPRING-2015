@@ -1,0 +1,102 @@
+///////////////////////////////////////////////////////////////////////////////
+The Impact of the Built Environment on Bicycle Commuting: Evidence from Beijing
+///////////////////////////////////////////////////////////////////////////////
+
+Abstract
+
+- "bicycle commuting is significantly associated with some features of the built environment"
+- increased use of bicycles for commuting affected by:
+	- 'higher destination accessibility'
+	- 'higher number of exclusive bike lanes'
+	- 'a mixed environment'
+	- 'greater connectivity between local streets'
+
+Intro
+
+"Most previous studies have found that
+the built environment has an effect on
+bicycle commuting and that some policy
+interventions into the built environment
+would encourage an increasing share of
+bicycle commuting trips (see a review by
+Heinen et al., 2010)" (page 2)
+
+
+4) Regression Analysis
+- commuting time is a large factor in whether or not someone commutes by bike
+- the higher the number of designated bike lanes, more bike commuting
+- the closer affordable public transportation the less the amount of bicycle commuting
+
+6) Conclusion
+- more mainroad or expressway crossings signifcantly related to less cycling
+- "This implies that the
+most effective way of encouraging cycling
+for commuting would be to combine
+improvements in bicycle facilities with
+urban design."
+
+///////////////////////////////////////////////////////////////////////////////
+Effect of Bike Lane Infrastructure on Ridership in one New Orleans Neighborhood
+///////////////////////////////////////////////////////////////////////////////
+
+"Cycling for transportation or recreation is one lowcost
+way to improve physical activity. According to an
+engineer (J.E. Ruley PE, written communication, July
+2012) from the New Orleans Department of Public
+Works, the total cost of the bike lane was less than
+1 % of the total road resurfacing project. This research
+shows that bike lanes are well suited in diverse urban
+areas and that if bike lanes are built, people will use
+them." (Page 6)
+
+//////////////////////////////////////////////////////////////////////////
+Determinants of bicycle commuting in the Washington, DC region:
+The role of bicycle parking, cyclist showers, and free car parking at work
+//////////////////////////////////////////////////////////////////////////
+
+Intro
+
+"In large US cities bicycling accounts for 0.8% of commutes to work, compared to 10–37% in large bike-friendly cities
+in the Netherlands, Denmark, and Germany (Pucher and Buehler, 2012)." (Page 1)
+
+"European countries,
+such as the Netherlands, Denmark, and Germany, with more commutes by bicycle and fewer commutes by automobile
+report much lower CO2 emissions per capita from road passenger transport than the US (1900 versus 4500 kg of CO2 emissions
+per capita) (International Energy Agency, 2011)."
+
+Results
+
+"Chisquare
+tests indicate that significantly more individuals commute by bike if employers provide cyclist showers, bike lockers,
+and bike parking. Free car parking at work is associated with less bike commuting and employer transit benefits are positively
+related to cycling to work. Bike commuting is more common for whites, males, individuals in the top income quartile,
+trips shorter than 3 miles, and in households with more bicycles. Individuals in households with more cars are less likely to
+commute by bike. The share of bike commuters is greater in the urban core, at higher population densities, and in areas with
+more bike paths and lanes."
+
+Conclusion
+
+4. Conclusions
+"Over the past decades, American local governments have changed local zoning ordinances to encourage bicycle parking
+and cyclist showers in new large office buildings with the goal to increase bicycle commuting. The results of this analysis of
+commuters in the Washington region indicate that bike parking and cyclist showers at work are associated with more bike
+commuting—even after controlling for other determinants of cycling to work. The combined supply of bike parking, clothes
+lockers, and cyclist showers has a statistically stronger influence on bike commuting than the provision of bike parking only.
+Compared to no trip-end facilities for cyclists, both, bike parking and showers combined and bike parking alone are related to
+more bike commuting. Results also indicate that free car parking at work is associated with less bike commuting; and that
+workplace commuter transit benefits are not related to bike commuting."
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Evaluating the Transport, Health, and Economic Impacts of New Urban Cycling Infrastructure in Sydney, Australia
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Economics
+
+"Investment in ‘cycling specific’ infrastructure has consistently had positive results, generally
+because the value of health benefits can be substantial and dwarfs the initial construction
+costs. For example, the NSW Roads and Traffic Authority reported a ratio of 1.3:1 when
+calculating the cost-benefit ratio of building missing links in its cycle network, using
+conservative assumptions [22], and a specifically focused analysis of the Inner Sydney
+Regional Bicycle Network found the cost-benefit ratio was 3.88:1 [23]." (Page 5) 
+- also talks about the wider/indirect economic impacts right after this quote

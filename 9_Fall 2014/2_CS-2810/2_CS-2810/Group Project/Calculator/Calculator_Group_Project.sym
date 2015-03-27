@@ -1,0 +1,32 @@
+//Symbol Name		Page Address
+//----------------	------------
+//	ASCIINegSign            311A
+//	ASCIItoBinary           3046
+//	C                       311F
+//	Exit                    3042
+//	GoOpAdd                 302C
+//	GoOpClear               3040
+//	GoOpMulti               3032
+//	GoOpNegate              3035
+//	GoOpSubtract            302F
+//	Minus                   311C
+//	Multi                   311D
+//	MultiLoop               305A
+//	N                       311E
+//	NegASCIIOffset          3118
+//	OpAdd                   304A
+//	OpClear                 306B
+//	OpMulti                 3057
+//	OpNegate                3061
+//	OpSubtract              304F
+//	Plus                    311B
+//	PosASCIIOffset          3119
+//	answer                  3072
+//	classHeader             3073
+//	newLine                 3090
+//	opKey                   30E8
+//	promptAnswer            30A6
+//	promptExit              3100
+//	promptNum               3091
+//	promptOperator          30C3
+//	termination             3120

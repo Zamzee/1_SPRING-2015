@@ -1,0 +1,105 @@
+- Transportation decision making primarily uses cost-benefit analysis (CBA)
+	CBA Disadvantages
+	- narrow
+	- generalizing nature
+	- non-economic factors limited in research gathering
+	- quantifies factors 
+//////////////////////////////////////////////////////////////////
+Multiple streams framework (better approach)
+- Problems stream
+	-channel of all the various issues facing actors at different points
+	- problems identified through a new indicator or dramatic change in an existing indicator
+
+Problems that bicycle riding is part of a solution to:
+
+- "30% American adults qualified as obese" (3)
+- estimated $147 billion obesity-related medical care cost per year 
+
+- " Growing awareness of the role thatthe design of the physical environment plays in obesity has led planners and public health professionals to reach joint policy suggestions to reduce obesity and support cardiac health." (3)
+
+-  Car Pollution
+- as of 2008 passenger vehicles account for 1.8 trillion lbs of CO2 emissions
+- 2.8 billion gallons of fuel wasted in traffic in 2007
+- 36 hours/ year avg time spent in traffic
+- auto ownership based on high per-year cost $5,976 -hinders low income families and individuals
+
+-transportation has competing interests when planning
+
+- joint efforts between supporters of non-motorized transportation policies, public health officialsm education professionals, environmental organizations been successful
+
+/////////////////////////////////////////////////
+Policy Solutions stream
+- comprised of the range of different policy options available to solve problems (problems and solutions are not attached yet)
+-wallking and bikingmight be viewed as one of a range of different solutions
+- specific- high quality seperated use facilities
+:factors: comfort, safety (actual and perceived), destinations,
+- health benefits
+- environmental benefits
+- reduced traffic congestion, reductions in illness, parking costs, environmental impacts reductions
+- 
+
+/////////////////////////////////////////////////////////
+Political stream
+-the most significant factor influencing bicycle mode share in major U.S. cities is the amount of infrastructure available
+- 8 factors between bike-heavy cities and low usage cities
+- public attitude and culture	- public image	-city size and density	 -cost of car use and public transit availibility
+- income	-climate	-danger	-infrastructure
+
+* for a solution- the streams mist be somewhat in parallel: problem identified, solution available, support garnered
+
+//////////////////////////////////////////////////////////////////////
+- US bicycle mode shar < 1%	Netherlands bike mode share is 30%
+- Congressman Jim Oberstar (House Transportation and Infrastructure Committe Chairman (former))
+	- avid cyclist whose work led to the incorporation of sustainabliity and public health into federal mandates for transportation planning, as well as expanded consideration of bicycles as modes of transportation from the perspective of federal government (quote)
+
+-success of local leve cycling policies is associated with the presence of consisten pressure on political actors by organized bicycling groups
+
+-* victories in budget allocations, bike infrastructure, improved city-planning strategies, and right-of-way laws
+- paired with environmental groups and even bus companies
+
+* -important to bring together information from each stream to implement a solution to a problem
+* - the result of bring together streams of problems, solutions, and political will and favorable conditions is what makes change possible, from the perspective of the MSF (quote)
+
+- CBA still has a place -serves as a valuable tool and perspective for contributing information to the policy problem and solution streams -one tool in a toolbelt of policy makers
+
+-incorporation of more complete policy process frameworks such as multiple streams allows for inclusion of valuable concepts such as policy entrepreneurs, advocacy organizations, and policy windows
+
+- future research should also embrace an improved qualitative methodaolgy for the success or failure of bicycle and pedestrian initiatives
+
+//////////////////////////////////////
+Resources to look up
+/////////////////////////////////////
+Dill and Carr 2003
+Heinen et al. 2010
+Buehler and Handy 2008
+Wakefield 2004
+Wray 2008
+
+
+Buehler, T.,Handy,S.,2008.FiftyyearsofbicyclepolicyinDavis,California.Transp.
+Res.Rec.2074,52–57.
+
+Dill,Jennifer,Carr,Theresa,2003. Bicycle Commuting and Facilities in Major US Cities:
+If you Build Them, Commuters Will Use Them.Transp.Res.Rec.1828(1),116
+
+Heinen, Eva,vanWee,Bert,Maat,Kees,2010.Commuting by bicycle:an overview
+of the literature.TransportRev.30(1),59–96.
+
+Horton, Dave,2006.Environmentalism and the bicycle.Environ.Polit.15(1),41.
+
+Hunt, J.D.,Abraham,J.E.,2007.Influences on bicycle use.Transportation34(4),
+453–470.
+
+Jacobsen, P.L.,2009.Who owns the roads?How motorised traffic discourages
+walking and bicycling.InjuryPrev.15(6),369–373
+
+Schneider, R.J.,2013.Theory of routine mode choice decisions:an operational
+framework to increase sustainable transportation.TransportPolicy25,
+128–137.
+
+
+Wakefield, Julie,2004.Fighting obesity through the built environment.Environ.
+Health Perspect.112(11),A616–A618.
+
+Wray,J.Harry,2008.PedalPower:the Quiet Rise of the Bicycle in American Public
+Life. Paradigm,Boulder,CO
