@@ -51,7 +51,7 @@ namespace proj_09_RCA_V1._0
             // Display Results
                 Console.WriteLine("Your highest score was {0} by {1})", bowlers.getHighest().getScore(), bowlers.getHighest().getName());
                 Console.WriteLine("Your lowest score was {0} by {1})", bowlers.getLowest().getScore(), bowlers.getLowest().getName());
-                Console.WriteLine("The average score was {0}.)", bowlers.getAverage());
+                Console.WriteLine("The average score was {0}.", bowlers.getAverage());
 
                 Console.ReadLine();
             }
