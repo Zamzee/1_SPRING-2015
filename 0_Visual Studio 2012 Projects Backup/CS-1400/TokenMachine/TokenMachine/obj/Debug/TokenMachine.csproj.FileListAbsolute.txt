@@ -1,9 +1,0 @@
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\bin\Debug\TokenMachine.exe.config
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\bin\Debug\TokenMachine.exe
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\bin\Debug\TokenMachine.pdb
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\obj\Debug\TokenMachine.csprojResolveAssemblyReference.cache
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\obj\Debug\TokenMachine.Form1.resources
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\obj\Debug\TokenMachine.Properties.Resources.resources
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\obj\Debug\TokenMachine.csproj.GenerateResource.Cache
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\obj\Debug\TokenMachine.exe
-c:\users\russell\documents\visual studio 2012\Projects\TokenMachine\TokenMachine\obj\Debug\TokenMachine.pdb

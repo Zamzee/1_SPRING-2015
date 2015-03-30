@@ -1,6 +1,0 @@
-c:\users\russell\documents\visual studio 2012\Projects\proj_10_RCA_V2.0\proj_10_RCA_V2.0\bin\Debug\proj_10_RCA_V2.0.exe.config
-C:\Users\Russell\Documents\Visual Studio 2012\Projects\proj_10_RCA_V2.0\proj_10_RCA_V2.0\bin\Debug\proj_10_RCA_V2.0.exe
-C:\Users\Russell\Documents\Visual Studio 2012\Projects\proj_10_RCA_V2.0\proj_10_RCA_V2.0\bin\Debug\proj_10_RCA_V2.0.pdb
-C:\Users\Russell\Documents\Visual Studio 2012\Projects\proj_10_RCA_V2.0\proj_10_RCA_V2.0\obj\Debug\proj_10_RCA_V2.0.csprojResolveAssemblyReference.cache
-C:\Users\Russell\Documents\Visual Studio 2012\Projects\proj_10_RCA_V2.0\proj_10_RCA_V2.0\obj\Debug\proj_10_RCA_V2.0.exe
-C:\Users\Russell\Documents\Visual Studio 2012\Projects\proj_10_RCA_V2.0\proj_10_RCA_V2.0\obj\Debug\proj_10_RCA_V2.0.pdb

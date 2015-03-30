@@ -1,0 +1,9 @@
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\bin\Debug\Project Lab_04.exe.config
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\bin\Debug\Project Lab_04.exe
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\bin\Debug\Project Lab_04.pdb
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\obj\Debug\Project Lab_04.csprojResolveAssemblyReference.cache
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\obj\Debug\Project_Lab_04.Form1.resources
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\obj\Debug\Project_Lab_04.Properties.Resources.resources
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\obj\Debug\Project Lab_04.csproj.GenerateResource.Cache
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\obj\Debug\Project Lab_04.exe
+c:\users\russell\documents\visual studio 2012\Projects\Project Lab_04\Project Lab_04\obj\Debug\Project Lab_04.pdb

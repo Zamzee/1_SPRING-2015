@@ -1,6 +1,0 @@
-c:\users\russell\documents\visual studio 2012\Projects\Lab_16_RCA_V1.0\Lab_16_RCA_V1.0\bin\Debug\Lab_16_RCA_V1.0.exe.config
-c:\users\russell\documents\visual studio 2012\Projects\Lab_16_RCA_V1.0\Lab_16_RCA_V1.0\bin\Debug\Lab_16_RCA_V1.0.exe
-c:\users\russell\documents\visual studio 2012\Projects\Lab_16_RCA_V1.0\Lab_16_RCA_V1.0\bin\Debug\Lab_16_RCA_V1.0.pdb
-c:\users\russell\documents\visual studio 2012\Projects\Lab_16_RCA_V1.0\Lab_16_RCA_V1.0\obj\Debug\Lab_16_RCA_V1.0.csprojResolveAssemblyReference.cache
-c:\users\russell\documents\visual studio 2012\Projects\Lab_16_RCA_V1.0\Lab_16_RCA_V1.0\obj\Debug\Lab_16_RCA_V1.0.exe
-c:\users\russell\documents\visual studio 2012\Projects\Lab_16_RCA_V1.0\Lab_16_RCA_V1.0\obj\Debug\Lab_16_RCA_V1.0.pdb
