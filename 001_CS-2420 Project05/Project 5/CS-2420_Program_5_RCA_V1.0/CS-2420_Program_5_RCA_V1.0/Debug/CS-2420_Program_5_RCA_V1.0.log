@@ -1,0 +1,16 @@
+﻿Build started 3/31/2015 2:33:58 PM.
+     1>Project "C:\Users\10690073\Desktop\000_CS-2420 Project05\Project 5\CS-2420_Program_5_RCA_V1.0\CS-2420_Program_5_RCA_V1.0\CS-2420_Program_5_RCA_V1.0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Driver.cpp Hash.cpp
+         Hash.cpp
+     1>c:\users\10690073\desktop\000_cs-2420 project05\project 5\cs-2420_program_5_rca_v1.0\cs-2420_program_5_rca_v1.0\hash.cpp(14): warning C4101: 'HashTable' : unreferenced local variable
+         Generating Code...
+     1>c:\users\10690073\desktop\000_cs-2420 project05\project 5\cs-2420_program_5_rca_v1.0\cs-2420_program_5_rca_v1.0\hash.cpp(34): error C4716: 'Hash::insert' : must return a value
+     1>c:\users\10690073\desktop\000_cs-2420 project05\project 5\cs-2420_program_5_rca_v1.0\cs-2420_program_5_rca_v1.0\hash.cpp(39): error C4716: 'Hash::resolveCollision' : must return a value
+         Skipping... (no relevant changes detected)
+         Driver.cpp
+     1>Done Building Project "C:\Users\10690073\Desktop\000_CS-2420 Project05\Project 5\CS-2420_Program_5_RCA_V1.0\CS-2420_Program_5_RCA_V1.0\CS-2420_Program_5_RCA_V1.0.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.93
