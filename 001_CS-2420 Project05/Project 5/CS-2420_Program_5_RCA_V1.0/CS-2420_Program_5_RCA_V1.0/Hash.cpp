@@ -1,8 +1,8 @@
 // File Prologue
-// Name: Russell Andlauer
+// Name: Russell C. Andlauer
 // Class: CS-2420-601
 // Program 5: Hashing
-// Date Last Modified: April 1st, 2015
+// Date Last Modified: April 2nd, 2015
 // Description: This program offers practice implementing a hash table 
 //              and a hash function using a file containing a set of integers.
 //////////////////////////////////////////////////////////////////////////////
