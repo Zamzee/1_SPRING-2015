@@ -8,40 +8,76 @@
 //////////////////////////////////////////////////////////////////////////////
 #include "Hash.h"
 
-
 Hash::Hash()
 {
 	HashTable[MAX];
-	int value = 0;
-	int location = (MAX - 1);
 
+	for (int i = 0; i < MAX; i++)
+	{
+		HashTable[i] = EMPTY;
+	}
 }
 
 int Hash::getHashValue(int value)
 {
-	int newEntry = value;
-	int key = newEntry % MAX;
-
+	int key = value;
+	key = key % MAX;
 	return key;
 }
 
 bool Hash::insert(int value, int location)
 {
-	if (value == EMPTY)
+	if (HashTable[location] == EMPTY)
 	{
-		cout << "Collision detected at location %d for value %d: on the screen." << endl;
-		// temporary
+		HashTable[location] = value;
 		return true;
+	}
+
+	else if (HashTable[location] == value)
+	{
+		cout << "Duplicate data... the value " << value << " is already in the array" << endl;
+		return true;
+	}
+
+	else
+	{
+		cout << "Collison detected at location " << location << " for the value " << value << endl;
+
+		return false;
 	}
 }
 
-bool Hash::resolveCollision(int vale, int originalLocation)
+bool Hash::resolveCollision(int value, int originalLocation)
 {
-	// temporary 
+	// Using Linear Probing to Resolve Collision
+	int testLocation = originalLocation;
+	bool insertSuccess = false;
+
+	// Start at the location of the collision and incrementally check if the location is occupied
+	while (!insertSuccess)
+	{
+		// If insertion was not successful, increment location
+		testLocation++;
+
+		// Try to insert in the new location
+		testLocation = getHashValue(testLocation);
+		insertSuccess = insert(value, testLocation);
+
+		 //Check if the array is full
+		if (testLocation == originalLocation)
+		{
+			return false;
+		}
+	}
+
+	// If the collision is successfully resolved
 	return true;
 }
 
 void Hash::show()
 {
-
+	for (int i = 0; i < MAX; i++)
+	{
+		cout << HashTable[i] << endl;
+	}
 }
